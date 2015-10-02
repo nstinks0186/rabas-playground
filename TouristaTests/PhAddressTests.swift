@@ -41,20 +41,28 @@ class PhAddressTests: XCTestCase {
     }
     
     func testFormattedString () {
-        let address = PhAddress()
+
+        var ex = PhAddress()
+        ex.name = "Chris Ryan R. Illustracion"
+        ex.streetNumber = 253
+        ex.streetName = "M.L. Quezon Street"
+        ex.barangay = "Santo Niño"
+        ex.city = "Tukuran"
+        ex.postalCode = 7019
+        ex.province = "Zamboanga del Sur"
+        XCTAssert(ex.formattedString == "Chris Ryan R. Illustracion\n253 M.L. Quezon Street\nSanto Niño, Tukuran\n7019 Zamboanga del Sur\nPhilippines")
         
-        // default formattedString for .Provincial
-        XCTAssert(address.formattedString == "<Name>\n<Unit Number>, <Street/House/Building Number> <Street Name>\n<Barangay/District Name>, <City/Municipality>\n<Postal Code> <Province/Metro Manila>\nPhilippines")
+//        ex = PhAddress()
+//        ex.name = "Mr. Raji Raine H. Magtanggol"
+//        ex.streetNumber = 253
+//        ex.streetName = "M.L. Quezon Street"
+//        ex.barangay = "Santo Niño"
+//        ex.city = "Tukuran"
+//        ex.postalCode = 7019
+//        ex.province = "Zamboanga del Sur"
+//        XCTAssert(ex.formattedString == "Mr. Raji Raine H. Magtanggol\n95 JayLee Street, Sofia Subdivision\nDel Pilar, San Fernando City\n2000 Pampanga")
         
-        // default formattedString for .MetroManila
-        address.type = .MetroManila
-        XCTAssert(address.formattedString == "<Name>\n<Unit Number>, <Street/House/Building Number> <Street Name>\n<Barangay/District Name>, <City/Municipality>\n<Postal Code> Metro Manila\nPhilippines")
-        
-        // default formattedString for .POBox
-        address.type = .POBox
-        XCTAssert(address.formattedString == "<Name>\n<P.O. Box Number>, <Post Office Name>\n<City/Municipality>\n<Postal Code> <Province/Metro Manila>\nPhilippines")
-        
-        print("formattedString: \n\(address.formattedString)")
+        print("formattedString: \n\(ex.formattedString)")
     }
     
 }

@@ -20,9 +20,13 @@ public class PhAddress {
     
     // type
     public var type: PhAddressType {
-        didSet {
-            if (type == .MetroManila) {
+        willSet {
+            // setup province
+            if (newValue == .MetroManila) {
                 self.province = metroManila
+            }
+            else if (self.type == .MetroManila) {
+                self.province = nil
             }
         }
     }
@@ -65,7 +69,7 @@ public class PhAddress {
             
             switch (type) {
             case .Provincial, .MetroManila :
-                returnString += (unit != nil ? "\(unit)" : "<Unit Number>") + ", "
+                returnString += (unit != nil ? "\(unit), " : "")
                 returnString += (streetNumber != nil ? "\(streetNumber)" : "<Street/House/Building Number>")  + " "
                 returnString += (streetName != nil ? "\(streetName)" : "<Street Name>") + "\n"
                 returnString += (barangay != nil ? barangay : "<Barangay/District Name>") + ", "
