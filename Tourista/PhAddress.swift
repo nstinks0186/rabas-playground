@@ -19,7 +19,8 @@ public enum PhAddressType {
 public class PhAddress {
     
     // type
-    public var type: PhAddressType {
+    var type: PhAddressType
+    {
         willSet {
             // setup province
             if (newValue == .MetroManila) {
@@ -42,6 +43,7 @@ public class PhAddress {
     public var province : String!
     public var poBoxNumber : Int!
     public var poName : String!
+    public var subdivision : String!    // subdivision/pamayanan/village
     let metroManila = "Metro Manila"
     let country = "Philippines"
     
@@ -71,7 +73,8 @@ public class PhAddress {
             case .Provincial, .MetroManila :
                 returnString += (unit != nil ? "\(unit), " : "")
                 returnString += (streetNumber != nil ? "\(streetNumber)" : "<Street/House/Building Number>")  + " "
-                returnString += (streetName != nil ? "\(streetName)" : "<Street Name>") + "\n"
+                returnString += (streetName != nil ? "\(streetName)" : "<Street Name>")
+                returnString += (subdivision != nil ? ", \(subdivision)" : "") + "\n"
                 returnString += (barangay != nil ? barangay : "<Barangay/District Name>") + ", "
             case .POBox :
                 returnString += (poBoxNumber != nil ? "\(poBoxNumber)" : "<P.O. Box Number>") + ", "
@@ -81,7 +84,7 @@ public class PhAddress {
             
             returnString += (city != nil ? city : "<City/Municipality>") + "\n"
             returnString += (postalCode != nil ? "\(postalCode)" : "<Postal Code>") + " "
-            returnString += (province != nil ? "\(province)" : "<Province/Metro Manila>") + "\n"
+            returnString += (type == .MetroManila ? metroManila : (province != nil ? "\(province)" : "<Province/Metro Manila>")) + "\n"
             returnString += country
             
             return returnString
@@ -89,8 +92,15 @@ public class PhAddress {
     }
     
     // init
+    
     public init () {
-        type = .Provincial
+        self.type = .Provincial
+    }
+    
+    
+    public convenience init(withType type:PhAddressType) {
+        self.init()
+        self.type = type
     }
     
     
