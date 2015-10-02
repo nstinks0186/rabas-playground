@@ -14,6 +14,8 @@
 		D72C9FC01BBF07A200044CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72C9FBE1BBF07A200044CD7 /* LaunchScreen.storyboard */; };
 		D72C9FCB1BBF07A200044CD7 /* TouristaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FCA1BBF07A200044CD7 /* TouristaTests.swift */; };
 		D72C9FD61BBF07A200044CD7 /* TouristaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FD51BBF07A200044CD7 /* TouristaUITests.swift */; };
+		D72C9FE41BBF08A500044CD7 /* PhAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FE31BBF08A500044CD7 /* PhAddress.swift */; settings = {ASSET_TAGS = (); }; };
+		D72C9FE71BBF09C800044CD7 /* PhAddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FE61BBF09C800044CD7 /* PhAddressTests.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D72C9FD11BBF07A200044CD7 /* TouristaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouristaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72C9FD51BBF07A200044CD7 /* TouristaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristaUITests.swift; sourceTree = "<group>"; };
 		D72C9FD71BBF07A200044CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72C9FE31BBF08A500044CD7 /* PhAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhAddress.swift; sourceTree = "<group>"; };
+		D72C9FE61BBF09C800044CD7 /* PhAddressTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhAddressTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		D72C9FB41BBF07A200044CD7 /* Tourista */ = {
 			isa = PBXGroup;
 			children = (
+				D72C9FE51BBF08AB00044CD7 /* PhAddress */,
 				D72C9FB51BBF07A200044CD7 /* AppDelegate.swift */,
 				D72C9FB71BBF07A200044CD7 /* ViewController.swift */,
 				D72C9FB91BBF07A200044CD7 /* Main.storyboard */,
@@ -111,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				D72C9FCA1BBF07A200044CD7 /* TouristaTests.swift */,
+				D72C9FE61BBF09C800044CD7 /* PhAddressTests.swift */,
 				D72C9FCC1BBF07A200044CD7 /* Info.plist */,
 			);
 			path = TouristaTests;
@@ -123,6 +129,14 @@
 				D72C9FD71BBF07A200044CD7 /* Info.plist */,
 			);
 			path = TouristaUITests;
+			sourceTree = "<group>";
+		};
+		D72C9FE51BBF08AB00044CD7 /* PhAddress */ = {
+			isa = PBXGroup;
+			children = (
+				D72C9FE31BBF08A500044CD7 /* PhAddress.swift */,
+			);
+			name = PhAddress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D72C9FB81BBF07A200044CD7 /* ViewController.swift in Sources */,
+				D72C9FE41BBF08A500044CD7 /* PhAddress.swift in Sources */,
 				D72C9FB61BBF07A200044CD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72C9FE71BBF09C800044CD7 /* PhAddressTests.swift in Sources */,
 				D72C9FCB1BBF07A200044CD7 /* TouristaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
