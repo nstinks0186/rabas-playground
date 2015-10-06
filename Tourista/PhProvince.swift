@@ -1,5 +1,5 @@
 //
-//  PHProvince.swift
+//  PhProvince.swift
 //  Tourista
 //
 //  Created by Pinuno Fuentes on 10/6/15.
@@ -9,7 +9,7 @@
 
 import Foundation
 
-enum PHProvince {
+enum PhProvince {
     case Abra
     case AgusanDelNorte
     case AgusanDelSur

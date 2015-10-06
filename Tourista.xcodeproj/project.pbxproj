@@ -17,7 +17,8 @@
 		D72C9FE41BBF08A500044CD7 /* PhAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FE31BBF08A500044CD7 /* PhAddress.swift */; settings = {ASSET_TAGS = (); }; };
 		D72C9FE71BBF09C800044CD7 /* PhAddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FE61BBF09C800044CD7 /* PhAddressTests.swift */; settings = {ASSET_TAGS = (); }; };
 		D72C9FE91BBF28F200044CD7 /* PhRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FE81BBF28F200044CD7 /* PhRegion.swift */; settings = {ASSET_TAGS = (); }; };
-		D7D990B11BC4628700FFDFAC /* PHProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B01BC4628700FFDFAC /* PHProvince.swift */; settings = {ASSET_TAGS = (); }; };
+		D7D990B11BC4628700FFDFAC /* PhProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B01BC4628700FFDFAC /* PhProvince.swift */; settings = {ASSET_TAGS = (); }; };
+		D7D990B31BC465C900FFDFAC /* PhCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B21BC465C900FFDFAC /* PhCity.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,8 @@
 		D72C9FE31BBF08A500044CD7 /* PhAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhAddress.swift; sourceTree = "<group>"; };
 		D72C9FE61BBF09C800044CD7 /* PhAddressTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhAddressTests.swift; sourceTree = "<group>"; };
 		D72C9FE81BBF28F200044CD7 /* PhRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhRegion.swift; sourceTree = "<group>"; };
-		D7D990B01BC4628700FFDFAC /* PHProvince.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHProvince.swift; sourceTree = "<group>"; };
+		D7D990B01BC4628700FFDFAC /* PhProvince.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhProvince.swift; sourceTree = "<group>"; };
+		D7D990B21BC465C900FFDFAC /* PhCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhCity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +142,8 @@
 			children = (
 				D72C9FE31BBF08A500044CD7 /* PhAddress.swift */,
 				D72C9FE81BBF28F200044CD7 /* PhRegion.swift */,
-				D7D990B01BC4628700FFDFAC /* PHProvince.swift */,
+				D7D990B01BC4628700FFDFAC /* PhProvince.swift */,
+				D7D990B21BC465C900FFDFAC /* PhCity.swift */,
 			);
 			name = PhAddress;
 			sourceTree = "<group>";
@@ -277,8 +280,9 @@
 			files = (
 				D72C9FB81BBF07A200044CD7 /* ViewController.swift in Sources */,
 				D72C9FE91BBF28F200044CD7 /* PhRegion.swift in Sources */,
+				D7D990B31BC465C900FFDFAC /* PhCity.swift in Sources */,
 				D72C9FE41BBF08A500044CD7 /* PhAddress.swift in Sources */,
-				D7D990B11BC4628700FFDFAC /* PHProvince.swift in Sources */,
+				D7D990B11BC4628700FFDFAC /* PhProvince.swift in Sources */,
 				D72C9FB61BBF07A200044CD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
