@@ -27,6 +27,9 @@
                                                     <rect key="frame" x="255" y="35" width="90" height="30"/>
                                                     <animations/>
                                                     <state key="normal" title="Search Tours"/>
+                                                    <connections>
+                                                        <segue destination="pJD-eu-NdI" kind="show" id="dqu-TN-Jch"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <animations/>
@@ -158,6 +161,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y2h-jp-Gsb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="555" y="73"/>
+        </scene>
+        <!--Search Tours-->
+        <scene sceneID="aHW-Q0-0f5">
+            <objects>
+                <tableViewController id="pJD-eu-NdI" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="6ys-Mf-Xny">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="RD4-YC-XUy">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RD4-YC-XUy" id="y4b-MP-c0w">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="pJD-eu-NdI" id="907-IW-7vc"/>
+                            <outlet property="delegate" destination="pJD-eu-NdI" id="8xH-dd-3Li"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Search Tours" id="cW9-qw-tX2"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wac-hL-PPS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1276" y="73"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oJY-Mk-pAa">
