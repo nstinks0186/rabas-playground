@@ -91,14 +91,11 @@ public enum PhProvince: String {
     case ZamboangaDelNorte = "Zamboanga del Norte"
     case ZamboangaDelSur = "Zamboanga del Sur"
     case ZamboangaSibugay = "Zamboanga Sibugay"
-    case MetroManila = "Metro Manila"        // not really a province
     
-    public static let allValues = [Abra, AgusanDelNorte, AgusanDelSur, Aklan, Albay, Antique, Apayao, Aurora, Basilan, Bataan, Batanes, Batangas, Benguet, Biliran, Bohol, Bukidnon, Bulacan, Cagayan, CamarinesNorte, CamarinesSur, Camiguin, Capiz, Catanduanes, Cavite, Cebu, CompostelaValley, Cotabato, DavaoDelNorte, DavaoDelSur, DavaoOccidental, DavaoOriental, DinagatIslands, EasternSamar, Guimaras, Ifugao, IlocosNorte, IlocosSur, Iloilo, Isabela, Kalinga, LaUnion, Laguna, LanaoDelNorte, LanaoDelSur, Leyte, Maguindanao, Marinduque, Masbate, MisamisOccidental, MisamisOriental, MountainProvince, NegrosOccidental, NegrosOriental, NorthernSamar, NuevaEcija, NuevaViscaya, OccidentalMindoro, OrientalMindoro, Palawan, Pampanga, Pangasinan, Quezon, Quirino, Rizal, Romblon, Samar, Sarangani, Siquijor, Sorsogon, SouthCotabato, SouthernLeyte, SultanKudarat, Sulu, SurigaoDelNorte, SurigaoDelSur, Tarlac, TawiTawi, Zambales, ZamboangaDelNorte, ZamboangaDelSur, ZamboangaSibugay, MetroManila]
+    public static let allValues = [Abra, AgusanDelNorte, AgusanDelSur, Aklan, Albay, Antique, Apayao, Aurora, Basilan, Bataan, Batanes, Batangas, Benguet, Biliran, Bohol, Bukidnon, Bulacan, Cagayan, CamarinesNorte, CamarinesSur, Camiguin, Capiz, Catanduanes, Cavite, Cebu, CompostelaValley, Cotabato, DavaoDelNorte, DavaoDelSur, DavaoOccidental, DavaoOriental, DinagatIslands, EasternSamar, Guimaras, Ifugao, IlocosNorte, IlocosSur, Iloilo, Isabela, Kalinga, LaUnion, Laguna, LanaoDelNorte, LanaoDelSur, Leyte, Maguindanao, Marinduque, Masbate, MisamisOccidental, MisamisOriental, MountainProvince, NegrosOccidental, NegrosOriental, NorthernSamar, NuevaEcija, NuevaViscaya, OccidentalMindoro, OrientalMindoro, Palawan, Pampanga, Pangasinan, Quezon, Quirino, Rizal, Romblon, Samar, Sarangani, Siquijor, Sorsogon, SouthCotabato, SouthernLeyte, SultanKudarat, Sulu, SurigaoDelNorte, SurigaoDelSur, Tarlac, TawiTawi, Zambales, ZamboangaDelNorte, ZamboangaDelSur, ZamboangaSibugay]
     
     func region() -> PhRegion {
         switch (self) {
-        case .MetroManila:
-            return .NCR
         case .Abra, .Apayao, .Benguet, .Ifugao, .Kalinga, .MountainProvince:
             return .CAR
         case .NegrosOccidental, .NegrosOriental:

@@ -24,7 +24,7 @@ class TestPhProvince: XCTestCase {
     
     func testAllValues() {
         let allVals = PhProvince.allValues
-        XCTAssert(allVals.count == 82)
+        XCTAssert(allVals.count == 81) // There are 81 provinces at present, further subdivided into component cities and municipalities (https://en.wikipedia.org/wiki/Provinces_of_the_Philippines)
         
 //        print("PH Provinces (\(allVals.count)):")
 //        for province in allVals {
