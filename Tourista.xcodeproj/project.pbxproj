@@ -84,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D72795E01BC84774001B6587 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		D72C9FA91BBF07A200044CD7 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +114,7 @@
 		D72C9FB41BBF07A200044CD7 /* Tourista */ = {
 			isa = PBXGroup;
 			children = (
+				D72795E01BC84774001B6587 /* New Group */,
 				D72C9FE51BBF08AB00044CD7 /* PhAddress */,
 				D72C9FB51BBF07A200044CD7 /* AppDelegate.swift */,
 				D72C9FB71BBF07A200044CD7 /* ViewController.swift */,
