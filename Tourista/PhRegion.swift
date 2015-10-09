@@ -12,21 +12,21 @@ import Foundation
 enum PhRegion {
     case NCR
     case CAR
-    case Ilocos
-    case Cagayan
-    case CentralLuzon
-    case CALABARZON
-    case MIMAROPA
-    case Bicol
-    case WesternVisayas
-    case CentralVisayas
-    case EasternVisayas
+    case I
+    case II
+    case III
+    case IVA
+    case IVB
+    case V
+    case VI
+    case VII
+    case VIII
     case NIR
-    case Zamboanga
-    case NorthernMindanao
-    case Davao
-    case SOCCSKSARGEN
-    case Caraga
+    case IX
+    case X
+    case XI
+    case XII
+    case XIII
     case ARMM
     
     func designation() -> String {
@@ -35,35 +35,35 @@ enum PhRegion {
             return "NCR"
         case .CAR:
             return "CAR"
-        case .Ilocos:
+        case .I:
             return "Region I"
-        case .Cagayan:
+        case .II:
             return "Region II"
-        case .CentralLuzon:
+        case .III:
             return "Region III"
-        case .CALABARZON:
+        case .IVA:
             return "Region IV-A"
-        case .MIMAROPA:
+        case .IVB:
             return "Region IV-B"
-        case .Bicol:
+        case .V:
             return "Region V"
-        case .WesternVisayas:
+        case .VI:
             return "Region VI"
-        case .CentralVisayas:
+        case .VII:
             return "Region VII"
-        case .EasternVisayas:
+        case .VIII:
             return "Region VIII"
         case .NIR:
             return "NIR"
-        case .Zamboanga:
+        case .IX:
             return "Region IX"
-        case .NorthernMindanao:
+        case .X:
             return "Region X"
-        case .Davao:
+        case .XI:
             return "Region XI"
-        case .SOCCSKSARGEN:
+        case .XII:
             return "Region XII"
-        case .Caraga:
+        case .XIII:
             return "Region XIII"
         case .ARMM:
             return "ARMM"
@@ -76,35 +76,35 @@ enum PhRegion {
             return "National Capital Region"
         case .CAR:
             return "Cordillera Administrative Region"
-        case .Ilocos:
+        case .I:
             return "Ilocos Region"
-        case .Cagayan:
+        case .II:
             return "Cagayan Valley"
-        case .CentralLuzon:
+        case .III:
             return "Central Luzon"
-        case .CALABARZON:
+        case .IVA:
             return "CALABARZON"
-        case .MIMAROPA:
+        case .IVB:
             return "MIMAROPA"
-        case .Bicol:
+        case .V:
             return "Bicol Region"
-        case .WesternVisayas:
+        case .VI:
             return "Western Visayas"
-        case .CentralVisayas:
+        case .VII:
             return "Central Visayas"
-        case .EasternVisayas:
+        case .VIII:
             return "Eastern Visayas"
         case .NIR:
             return "Negros Island Region"
-        case .Zamboanga:
+        case .IX:
             return "Zamboanga Peninsula"
-        case .NorthernMindanao:
+        case .X:
             return "Northern Mindanao"
-        case .Davao:
+        case .XI:
             return "Davao Region"
-        case .SOCCSKSARGEN:
+        case .XII:
             return "SOCCSKSARGEN"
-        case .Caraga:
+        case .XIII:
             return "Caraga"
         case .ARMM:
             return "Autonomous Region in Muslim Mindanao"

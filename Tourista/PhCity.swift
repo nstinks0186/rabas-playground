@@ -64,7 +64,7 @@ enum PhCity {
     case Ilagan
     case Iligan
     case Iloilo
-    case Imuis
+    case Imus
     case Iriga
     case Isabela
     case Kabankalan
@@ -83,7 +83,7 @@ enum PhCity {
     case Mabalacat
     case Makati
     case Malabon
-    case Malaybay
+    case Malaybalay
     case Malolos
     case Mandaluyong
     case Mandaue
@@ -95,7 +95,8 @@ enum PhCity {
     case Meycauayan
     case Munoz
     case Muntinlupa
-    case Naga
+    case NagaCamarinesSur
+    case NagaCebu
     case Navotas
     case Olongapo
     case Ormoc
@@ -115,7 +116,8 @@ enum PhCity {
     case Samal
     case SanCarlosNegros
     case SanCarlosPangasinan
-    case SanFernando
+    case SanFernandoLaUnion
+    case SanFernandoPampanga
     case SanJose
     case SanJoseDelMonte
     case SanJuan
@@ -129,13 +131,14 @@ enum PhCity {
     case Surigao
     case Tabaco
     case Tabuk
-    case Takloban
+    case Tacloban
     case Tacurong
     case Tagaytay
     case Tagbilaran
     case Taguig
     case Tagum
-    case Talisay
+    case TalisayNegros
+    case TalisayCebu
     case Tanauan
     case Tandag
     case Tangub
@@ -151,4 +154,47 @@ enum PhCity {
     case Victorias
     case Vigan
     case Zamboanga
+    
+    func region() -> PhRegion {
+        switch (self) {
+        case .Baguio, .Tabuk:
+            return .CAR
+        case .Bacolod, .Bago, .Bais, .Bayawan, .Cadiz, .Canlaon, .Dumaguete, .Escalante, .Guihulngan, .Himamaylan, .Kabankalan, .LaCarlota, .Sagay, .SanCarlosNegros, .Silay, .Sipalay, .TalisayNegros, .Tanjay, .Victorias:
+            return .NIR
+        case .Caloocan, .LasPinas, .Makati, .Malabon, .Mandaluyong, .Manila, .Markikina, .Muntinlupa, .Navotas, .Paranaque, .Pasay, .Pasig, .Quezon, .SanJuan, .Taguig, .Valenzuela: // Pateros
+            return .NCR
+        case .Lamitan, .Marawi:
+            return .ARMM
+        case .Alaminos, .Batac, .Candon, .Dagupan, .Laoag, .SanCarlosPangasinan, .SanFernandoLaUnion, .Urdaneta, .Vigan:
+            return .I
+        case .Cauayan, .Ilagan, .Tuguegarao, .Santiago:
+            return .II
+        case .Angeles, .Balanga, .Cabanatuan, .Gapan, .Mabalacat, .Malolos, .Meycauayan, .Munoz, .Olongapo, .Palayan, .SanFernandoPampanga, .SanJose, .SanJoseDelMonte, .Tarlac:
+            return .III
+        case .Antipolo, .Bacoor, .Batangas, .Binan, .Cabuyao, .Calamba, .Cavite, .Dasmarinas, .Imus, .Lipa, .Lucena, .SanPablo, .SanPedro, .SantaRosa, .Tagaytay, .Tanauan, .Tayabas, .TreceMartires:
+            return .IVA
+        case .Calapan, .PuertoPrincesa:
+            return .IVB
+        case .Ligao, .Masbate, .Tabaco, .Iriga, .NagaCamarinesSur, .Legazpi, .Sorsogon:
+            return .V
+        case .Passi, .Roxas, .Iloilo:
+            return .VI
+        case .Bogo, .Cebu, .Carcar, .Danao, .LapuLapu, .Mandaue, .NagaCebu, .Toledo, .Tagbilaran, .TalisayCebu:
+            return .VII
+        case .Baybay, .Borongan, .Calbayog, .Catbalogan, .Maasin, .Ormoc, .Tacloban:
+            return .VIII
+        case .Zamboanga, .Isabela, .Dipolog, .Pagadian, .Dapitan: // Ipil
+            return .IX
+        case .CagayanDeOro, .Malaybalay, .Valencia, .Oroquieta, .Ozamiz, .Tangub, .ElSalvador, .Gingoog, .Iligan:
+            return .X
+        case .Digos, .Mati, .Panabo, .Tagum, .Samal, .Davao:
+            return .XI
+        case .Cotabato, .Kidapawan, .Koronadal, .Tacurong, .GeneralSantos:
+            return .XII
+        case .Bayugan, .Bislig, .Butuan, .Cabadbaran, .Surigao, .Tandag:
+            return .XIII
+        }
+    }
+    
+    
 }
