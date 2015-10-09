@@ -111,4 +111,45 @@ enum PhRegion {
         }
     }
     
+    func thumbnail () -> NSURL {
+        switch (self) {
+        case .NCR:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_ncr.png")!
+        case .CAR:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_car.png")!
+        case .I:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_ilocos.png")!
+        case .II:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_ilocos.png")!
+        case .III:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_central_luzon.png")!
+        case .IVA:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_calabarzon.png")!
+        case .IVB:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_mimaropa.png")!
+        case .V:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_bicol.png")!
+        case .VI:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_western_visayas.png")!
+        case .VII:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_central_visayas.png")!
+        case .VIII:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_eastern_visayas.png")!
+        case .NIR:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_negros_island.png")!
+        case .IX:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_zamboanga_peninsula.png")!
+        case .X:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_northern_mindanao.png")!
+        case .XI:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_davao_region.png")!
+        case .XII:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_soccsksargen.png")!
+        case .XIII:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_caraga.png")!
+        case .ARMM:
+            return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_armm.png")!
+        }
+    }
+    
 }
