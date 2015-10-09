@@ -1,16 +1,16 @@
 //
-//  TestPhRegion.swift
+//  TestPhProvince.swift
 //  Tourista
 //
 //  Created by Pinuno Fuentes on 10/9/15.
 //  Copyright © 2015 pinunofuentes. All rights reserved.
 //
-//  Reference: https://en.wikipedia.org/wiki/Regions_of_the_Philippines
+//  Reference: https://en.wikipedia.org/wiki/Provinces_of_the_Philippines
 
 import XCTest
 import Tourista
 
-class TestPhRegion: XCTestCase {
+class TestPhProvince: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,14 +23,13 @@ class TestPhRegion: XCTestCase {
     }
     
     func testAllValues() {
-        let allVals = PhRegion.allValues
-        XCTAssert(allVals.count == 18) // As of May 2015, the Philippines consists of 18 administrative regions (https://en.wikipedia.org/wiki/Regions_of_the_Philippines)
+        let allVals = PhProvince.allValues
+        XCTAssert(allVals.count == 82)
         
-//        print("PH Regions:")
-//        for region in allVals {
-//            print(" \(region.rawValue)")
+//        print("PH Provinces (\(allVals.count)):")
+//        for province in allVals {
+//            print(" \(province.rawValue)")
 //        }
-        
     }
     
 //    func testPerformanceExample() {

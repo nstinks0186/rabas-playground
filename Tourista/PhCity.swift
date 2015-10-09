@@ -9,7 +9,7 @@
 
 import Foundation
 
-enum PhCity : String {
+public enum PhCity : String {
     case Alaminos
     case Angeles
     case Antipolo
@@ -24,7 +24,7 @@ enum PhCity : String {
     case Bayawan
     case Baybay
     case Bayugan
-    case Binan
+    case Binan = "Biñan"
     case Bislig
     case Bogo
     case Borongan
@@ -74,7 +74,7 @@ enum PhCity : String {
     case Lamitan
     case Laoag
     case LapuLapu
-    case LasPinas
+    case LasPinas = "Las Piñas"
     case Legazpi
     case Ligao
     case Lipa
@@ -154,6 +154,8 @@ enum PhCity : String {
     case Victorias
     case Vigan
     case Zamboanga
+    
+    public static let allValues = [Alaminos, Angeles, Antipolo, Bacolod, Bacoor, Bago, Baguio, Bais, Balanga, Batac, Batangas, Bayawan, Baybay, Bayugan, Binan, Bislig, Bogo, Borongan, Butuan, Cabadbaran, Cabanatuan, Cabuyao, Cadiz, CagayanDeOro, Calamba, Calapan, Calbayog, Caloocan, Candon, Canlaon, Carcar, Catbalogan, Cauayan, Cavite, Cebu, Cotabato, Dagupan, Danao, Dapitan, Dasmarinas, Davao, Digos, Dipolog, Dumaguete, ElSalvador, Escalante, Gapan, GeneralSantos, Gingoog, Guihulngan, Himamaylan, Ilagan, Iligan, Iloilo, Imus, Iriga, Isabela, Kabankalan, Kidapawan, Koronadal, LaCarlota, Lamitan, Laoag, LapuLapu, LasPinas, Legazpi, Ligao, Lipa, Lucena, Maasin, Mabalacat, Makati, Malabon, Malaybalay, Malolos, Mandaluyong, Mandaue, Manila, Marawi, Markikina, Masbate, Mati, Meycauayan, Munoz, Muntinlupa, NagaCamarinesSur, NagaCebu, Navotas, Olongapo, Ormoc, Oroquieta, Ozamiz, Pagadian, Palayan, Panabo, Paranaque, Pasay, Pasig, Passi, PuertoPrincesa, Quezon, Roxas, Sagay, Samal, SanCarlosNegros, SanCarlosPangasinan, SanFernandoLaUnion, SanFernandoPampanga, SanJose, SanJoseDelMonte, SanJuan, SanPablo, SanPedro, SantaRosa, Santiago, Silay, Sipalay, Sorsogon, Surigao, Tabaco, Tabuk, Tacloban, Tacurong, Tagaytay, Tagbilaran, Taguig, Tagum, TalisayNegros, TalisayCebu, Tanauan, Tandag, Tangub, Tanjay, Tarlac, Tayabas, Toledo, TreceMartires, Tuguegarao, Urdaneta, Valencia, Valenzuela, Victorias, Vigan, Zamboanga]
     
     func region() -> PhRegion {
         switch (self) {

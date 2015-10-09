@@ -9,7 +9,7 @@
 
 import Foundation
 
-enum PhProvince: String {
+public enum PhProvince: String {
     case Abra = "Abra"
     case AgusanDelNorte = "Agusan del Norte"
     case AgusanDelSur = "Agusan del Sur"
@@ -34,6 +34,7 @@ enum PhProvince: String {
     case Capiz = "Capiz"
     case Catanduanes = "Catanduanes"
     case Cavite = "Cavite"
+    case Cebu
     case CompostelaValley = "Compostela Valley"
     case Cotabato = "Cotabato"
     case DavaoDelNorte = "Davao del Norte"
@@ -92,6 +93,8 @@ enum PhProvince: String {
     case ZamboangaSibugay = "Zamboanga Sibugay"
     case MetroManila = "Metro Manila"        // not really a province
     
+    public static let allValues = [Abra, AgusanDelNorte, AgusanDelSur, Aklan, Albay, Antique, Apayao, Aurora, Basilan, Bataan, Batanes, Batangas, Benguet, Biliran, Bohol, Bukidnon, Bulacan, Cagayan, CamarinesNorte, CamarinesSur, Camiguin, Capiz, Catanduanes, Cavite, Cebu, CompostelaValley, Cotabato, DavaoDelNorte, DavaoDelSur, DavaoOccidental, DavaoOriental, DinagatIslands, EasternSamar, Guimaras, Ifugao, IlocosNorte, IlocosSur, Iloilo, Isabela, Kalinga, LaUnion, Laguna, LanaoDelNorte, LanaoDelSur, Leyte, Maguindanao, Marinduque, Masbate, MisamisOccidental, MisamisOriental, MountainProvince, NegrosOccidental, NegrosOriental, NorthernSamar, NuevaEcija, NuevaViscaya, OccidentalMindoro, OrientalMindoro, Palawan, Pampanga, Pangasinan, Quezon, Quirino, Rizal, Romblon, Samar, Sarangani, Siquijor, Sorsogon, SouthCotabato, SouthernLeyte, SultanKudarat, Sulu, SurigaoDelNorte, SurigaoDelSur, Tarlac, TawiTawi, Zambales, ZamboangaDelNorte, ZamboangaDelSur, ZamboangaSibugay, MetroManila]
+    
     func region() -> PhRegion {
         switch (self) {
         case .MetroManila:
@@ -118,7 +121,7 @@ enum PhProvince: String {
             return .VI
         case .Bohol, .Siquijor:
             return .VII
-        case .Biliran, .EasternSamar, .Leyte, .NorthernSamar, .Samar, .SouthernLeyte:
+        case .Biliran, .Cebu, .EasternSamar, .Leyte, .NorthernSamar, .Samar, .SouthernLeyte:
             return .VIII
         case .ZamboangaDelNorte, .ZamboangaDelSur, .ZamboangaSibugay:
             return .IX

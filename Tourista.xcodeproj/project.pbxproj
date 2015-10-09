@@ -11,6 +11,7 @@
 		D72795E61BC84BF3001B6587 /* TourPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72795E51BC84BF3001B6587 /* TourPackage.swift */; settings = {ASSET_TAGS = (); }; };
 		D72795EA1BC84F4A001B6587 /* TourDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72795E91BC84F4A001B6587 /* TourDestination.swift */; settings = {ASSET_TAGS = (); }; };
 		D72795F01BC85743001B6587 /* TestPhRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72795EF1BC85743001B6587 /* TestPhRegion.swift */; settings = {ASSET_TAGS = (); }; };
+		D72795F21BC85C1D001B6587 /* TestPhProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72795F11BC85C1D001B6587 /* TestPhProvince.swift */; settings = {ASSET_TAGS = (); }; };
 		D72C9FB61BBF07A200044CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FB51BBF07A200044CD7 /* AppDelegate.swift */; };
 		D72C9FB81BBF07A200044CD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FB71BBF07A200044CD7 /* ViewController.swift */; };
 		D72C9FBB1BBF07A200044CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72C9FB91BBF07A200044CD7 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		D72C9FE41BBF08A500044CD7 /* PhAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FE31BBF08A500044CD7 /* PhAddress.swift */; settings = {ASSET_TAGS = (); }; };
 		D72C9FE71BBF09C800044CD7 /* PhAddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FE61BBF09C800044CD7 /* PhAddressTests.swift */; settings = {ASSET_TAGS = (); }; };
 		D72C9FE91BBF28F200044CD7 /* PhRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FE81BBF28F200044CD7 /* PhRegion.swift */; settings = {ASSET_TAGS = (); }; };
+		D775BCCE1BC8628D002652D1 /* TestPhCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D775BCCD1BC8628D002652D1 /* TestPhCity.swift */; settings = {ASSET_TAGS = (); }; };
 		D7D990B11BC4628700FFDFAC /* PhProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B01BC4628700FFDFAC /* PhProvince.swift */; settings = {ASSET_TAGS = (); }; };
 		D7D990B31BC465C900FFDFAC /* PhCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B21BC465C900FFDFAC /* PhCity.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -47,6 +49,7 @@
 		D72795E51BC84BF3001B6587 /* TourPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourPackage.swift; sourceTree = "<group>"; };
 		D72795E91BC84F4A001B6587 /* TourDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourDestination.swift; sourceTree = "<group>"; };
 		D72795EF1BC85743001B6587 /* TestPhRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPhRegion.swift; sourceTree = "<group>"; };
+		D72795F11BC85C1D001B6587 /* TestPhProvince.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPhProvince.swift; sourceTree = "<group>"; };
 		D72C9FB21BBF07A200044CD7 /* Tourista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourista.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72C9FB51BBF07A200044CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D72C9FB71BBF07A200044CD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 		D72C9FE31BBF08A500044CD7 /* PhAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhAddress.swift; sourceTree = "<group>"; };
 		D72C9FE61BBF09C800044CD7 /* PhAddressTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhAddressTests.swift; sourceTree = "<group>"; };
 		D72C9FE81BBF28F200044CD7 /* PhRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhRegion.swift; sourceTree = "<group>"; };
+		D775BCCD1BC8628D002652D1 /* TestPhCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPhCity.swift; sourceTree = "<group>"; };
 		D7D990B01BC4628700FFDFAC /* PhProvince.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhProvince.swift; sourceTree = "<group>"; };
 		D7D990B21BC465C900FFDFAC /* PhCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhCity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +144,8 @@
 		D72C9FC91BBF07A200044CD7 /* TouristaTests */ = {
 			isa = PBXGroup;
 			children = (
+				D775BCCD1BC8628D002652D1 /* TestPhCity.swift */,
+				D72795F11BC85C1D001B6587 /* TestPhProvince.swift */,
 				D72795EF1BC85743001B6587 /* TestPhRegion.swift */,
 				D72C9FCA1BBF07A200044CD7 /* TouristaTests.swift */,
 				D72C9FE61BBF09C800044CD7 /* PhAddressTests.swift */,
@@ -314,7 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D775BCCE1BC8628D002652D1 /* TestPhCity.swift in Sources */,
 				D72C9FE71BBF09C800044CD7 /* PhAddressTests.swift in Sources */,
+				D72795F21BC85C1D001B6587 /* TestPhProvince.swift in Sources */,
 				D72C9FCB1BBF07A200044CD7 /* TouristaTests.swift in Sources */,
 				D72795F01BC85743001B6587 /* TestPhRegion.swift in Sources */,
 			);
