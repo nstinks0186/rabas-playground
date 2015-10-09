@@ -90,5 +90,52 @@ enum PhProvince {
     case ZamboangaDelNorte
     case ZamboangaDelSur
     case ZamboangaSibugay
-    case MetroManila
+    case MetroManila        // not really a province
+    
+    func region() -> PhRegion {
+        switch (self) {
+        case .MetroManila:
+            return .NCR
+        case .Abra, .Apayao, .Benguet, .Ifugao, .Kalinga, .MountainProvince:
+            return .CAR
+        case .NegrosOccidental, .NegrosOriental:
+            return .NIR
+        case .Basilan, .LanaoDelSur, .Maguindanao, .Sulu, .TawiTawi:
+            return .ARMM
+        case .IlocosNorte, .IlocosSur, .LaUnion, .Pangasinan:
+            return .I
+        case .Batanes, .Cagayan, .Isabela, .NuevaViscaya, .Quirino:
+            return .II
+        case .Aurora, .Bataan, .Bulacan, .NuevaEcija, .Pampanga, .Tarlac, .Zambales:
+            return .III
+        case .Cavite, .Laguna, .Batangas, .Rizal, .Quezon:
+            return .IVA
+        case .Marinduque, .OccidentalMindoro, .OrientalMindoro, .Palawan, .Romblon:
+            return .IVB
+        case .Albay, .CamarinesNorte, .CamarinesSur, .Catanduanes, .Masbate, .Sorsogon:
+            return .V
+        case .Aklan, .Antique, .Capiz, .Guimaras, .Iloilo:
+            return .VI
+        case .Bohol, .Siquijor:
+            return .VII
+        case .Biliran, .EasternSamar, .Leyte, .NorthernSamar, .Samar, .SouthernLeyte:
+            return .VIII
+        case .ZamboangaDelNorte, .ZamboangaDelSur, .ZamboangaSibugay:
+            return .IX
+        case .Bukidnon, .Camiguin, .LanaoDelNorte, .MisamisOccidental, .MisamisOriental:
+            return .X
+        case .CompostelaValley, .DavaoDelNorte, .DavaoDelSur, .DavaoOccidental, .DavaoOriental:
+            return .XI
+        case .Cotabato, .Sarangani, .SouthCotabato, .SultanKudarat:
+            return .XII
+        case .AgusanDelNorte, .AgusanDelSur, .DinagatIslands, .SurigaoDelNorte, .SurigaoDelSur:
+            return .XIII
+        }
+    }
+    
+    // TODO
+//    func thumbnail -> NSURL {
+//        
+//    }
+    
 }
