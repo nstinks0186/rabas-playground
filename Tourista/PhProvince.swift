@@ -9,88 +9,88 @@
 
 import Foundation
 
-enum PhProvince {
-    case Abra
-    case AgusanDelNorte
-    case AgusanDelSur
-    case Aklan
-    case Albay
-    case Antique
-    case Apayao
-    case Aurora
-    case Basilan
-    case Bataan
-    case Batanes
-    case Batangas
-    case Benguet
-    case Biliran
-    case Bohol
-    case Bukidnon
-    case Bulacan
-    case Cagayan
-    case CamarinesNorte
-    case CamarinesSur
-    case Camiguin
-    case Capiz
-    case Catanduanes
-    case Cavite
-    case CompostelaValley
-    case Cotabato
-    case DavaoDelNorte
-    case DavaoDelSur
-    case DavaoOccidental
-    case DavaoOriental
-    case DinagatIslands
-    case EasternSamar
-    case Guimaras
-    case Ifugao
-    case IlocosNorte
-    case IlocosSur
-    case Iloilo
-    case Isabela
-    case Kalinga
-    case LaUnion
-    case Laguna
-    case LanaoDelNorte
-    case LanaoDelSur
-    case Leyte
-    case Maguindanao
-    case Marinduque
-    case Masbate
-    case MisamisOccidental
-    case MisamisOriental
-    case MountainProvince
-    case NegrosOccidental
-    case NegrosOriental
-    case NorthernSamar
-    case NuevaEcija
-    case NuevaViscaya
-    case OccidentalMindoro
-    case OrientalMindoro
-    case Palawan
-    case Pampanga
-    case Pangasinan
-    case Quezon
-    case Quirino
-    case Rizal
-    case Romblon
-    case Samar
-    case Sarangani
-    case Siquijor
-    case Sorsogon
-    case SouthCotabato
-    case SouthernLeyte
-    case SultanKudarat
-    case Sulu
-    case SurigaoDelNorte
-    case SurigaoDelSur
-    case Tarlac
-    case TawiTawi
-    case Zambales
-    case ZamboangaDelNorte
-    case ZamboangaDelSur
-    case ZamboangaSibugay
-    case MetroManila        // not really a province
+enum PhProvince: String {
+    case Abra = "Abra"
+    case AgusanDelNorte = "Agusan del Norte"
+    case AgusanDelSur = "Agusan del Sur"
+    case Aklan = "Aklan"
+    case Albay = "Albay"
+    case Antique = "Antique"
+    case Apayao = "Apayao"
+    case Aurora = "Aurora"
+    case Basilan = "Basilan"
+    case Bataan = "Bataan"
+    case Batanes = "Batanes"
+    case Batangas = "Batangas"
+    case Benguet = "Benguet"
+    case Biliran = "Biliran"
+    case Bohol = "Bohol"
+    case Bukidnon = "Bukidnon"
+    case Bulacan = "Bulacan"
+    case Cagayan = "Cagayan"
+    case CamarinesNorte = "Camarines Norte"
+    case CamarinesSur = "Camarines Sur"
+    case Camiguin = "Camiguin"
+    case Capiz = "Capiz"
+    case Catanduanes = "Catanduanes"
+    case Cavite = "Cavite"
+    case CompostelaValley = "Compostela Valley"
+    case Cotabato = "Cotabato"
+    case DavaoDelNorte = "Davao del Norte"
+    case DavaoDelSur = "Davao del Sur"
+    case DavaoOccidental = "Davao Occidental"
+    case DavaoOriental = "Davao Oriental"
+    case DinagatIslands = "Dinagat Islands"
+    case EasternSamar = "Eastern Samar"
+    case Guimaras = "Guimaras"
+    case Ifugao = "Ifugao"
+    case IlocosNorte = "Ilocos Norte"
+    case IlocosSur = "Ilocos Sur"
+    case Iloilo = "Iloilo"
+    case Isabela = "Isabela"
+    case Kalinga = "Kalinga"
+    case LaUnion = "La Union"
+    case Laguna = "Laguna"
+    case LanaoDelNorte = "Lanao del Norte"
+    case LanaoDelSur = "Lanao del Sur"
+    case Leyte = "Leyte"
+    case Maguindanao = "Maguindanao"
+    case Marinduque = "Marinduque"
+    case Masbate = "Masbate"
+    case MisamisOccidental = "Misamis Occidental"
+    case MisamisOriental = "Misamis Oriental"
+    case MountainProvince = "Mountain Province"
+    case NegrosOccidental = "Negros Occidental"
+    case NegrosOriental = "Negros Oriental"
+    case NorthernSamar = "Northern Samar"
+    case NuevaEcija = "Nueva Ecija"
+    case NuevaViscaya = "Nueva Viscaya"
+    case OccidentalMindoro = "Occidental Mindoro"
+    case OrientalMindoro = "Oriental Mindoro"
+    case Palawan = "Palawan"
+    case Pampanga = "Pampanga"
+    case Pangasinan = "Pangasinan"
+    case Quezon = "Quezon"
+    case Quirino = "Quirino"
+    case Rizal = "Rizal"
+    case Romblon = "Romblon"
+    case Samar = "Samar"
+    case Sarangani = "Sarangani"
+    case Siquijor = "Siquijor"
+    case Sorsogon = "Sorsogon"
+    case SouthCotabato = "South Cotabato"
+    case SouthernLeyte = "Southern Leyte"
+    case SultanKudarat = "Sultan Kudarat"
+    case Sulu = "Sulu"
+    case SurigaoDelNorte = "Surigao del Norte"
+    case SurigaoDelSur = "Surigao del Sur"
+    case Tarlac = "Tarlac"
+    case TawiTawi = "Tawi-Tawi"
+    case Zambales = "Zambales"
+    case ZamboangaDelNorte = "Zamboanga del Norte"
+    case ZamboangaDelSur = "Zamboanga del Sur"
+    case ZamboangaSibugay = "Zamboanga Sibugay"
+    case MetroManila = "Metro Manila"        // not really a province
     
     func region() -> PhRegion {
         switch (self) {
@@ -132,10 +132,5 @@ enum PhProvince {
             return .XIII
         }
     }
-    
-    // TODO
-//    func thumbnail -> NSURL {
-//        
-//    }
     
 }

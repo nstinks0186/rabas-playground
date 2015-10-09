@@ -9,25 +9,27 @@
 
 import Foundation
 
-enum PhRegion {
-    case NCR
-    case CAR
-    case I
-    case II
-    case III
-    case IVA
-    case IVB
-    case V
-    case VI
-    case VII
-    case VIII
-    case NIR
-    case IX
-    case X
-    case XI
-    case XII
-    case XIII
-    case ARMM
+public enum PhRegion : String {
+    case NCR = "National Capital Region"
+    case CAR = "Cordillera Administrative Region"
+    case I = "Ilocos Region"
+    case II = "Cagayan Valley"
+    case III = "Central Luzon"
+    case IVA = "CALABARZON"
+    case IVB = "MIMAROPA"
+    case V = "Bicol Region"
+    case VI = "Western Visayas"
+    case VII = "Central Visayas"
+    case VIII = "Eastern Visayas"
+    case NIR = "Negros Island Region"
+    case IX = "Zamboanga Peninsula"
+    case X = "Northern Mindanao"
+    case XI = "Davao Region"
+    case XII = "SOCCSKSARGEN"
+    case XIII = "Caraga"
+    case ARMM = "Autonomous Region in Muslim Mindanao"
+    
+    public static let allValues = [NCR, CAR, I, II, III, IVA, IVB, V, VI, VII, VIII, NIR, IX, X, XI, XII, XIII, ARMM]
     
     func designation() -> String {
         switch (self) {
@@ -70,47 +72,6 @@ enum PhRegion {
         }
     }
     
-    func name () -> String {
-        switch (self) {
-        case .NCR:
-            return "National Capital Region"
-        case .CAR:
-            return "Cordillera Administrative Region"
-        case .I:
-            return "Ilocos Region"
-        case .II:
-            return "Cagayan Valley"
-        case .III:
-            return "Central Luzon"
-        case .IVA:
-            return "CALABARZON"
-        case .IVB:
-            return "MIMAROPA"
-        case .V:
-            return "Bicol Region"
-        case .VI:
-            return "Western Visayas"
-        case .VII:
-            return "Central Visayas"
-        case .VIII:
-            return "Eastern Visayas"
-        case .NIR:
-            return "Negros Island Region"
-        case .IX:
-            return "Zamboanga Peninsula"
-        case .X:
-            return "Northern Mindanao"
-        case .XI:
-            return "Davao Region"
-        case .XII:
-            return "SOCCSKSARGEN"
-        case .XIII:
-            return "Caraga"
-        case .ARMM:
-            return "Autonomous Region in Muslim Mindanao"
-        }
-    }
-    
     func thumbnail () -> NSURL {
         switch (self) {
         case .NCR:
@@ -150,6 +111,12 @@ enum PhRegion {
         case .ARMM:
             return NSURL(string: "https://en.wikipedia.org/wiki/File:Ph_fil_armm.png")!
         }
+    }
+    
+    // MARK: - PhLocation Methods
+    
+    func name() -> String {
+        return self.rawValue
     }
     
 }

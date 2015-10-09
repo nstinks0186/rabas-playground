@@ -9,7 +9,7 @@
 
 import Foundation
 
-enum PhCity {
+enum PhCity : String {
     case Alaminos
     case Angeles
     case Antipolo
@@ -33,7 +33,7 @@ enum PhCity {
     case Cabanatuan
     case Cabuyao
     case Cadiz
-    case CagayanDeOro
+    case CagayanDeOro = "Cagayan de Oro"
     case Calamba
     case Calapan
     case Calbayog
@@ -54,10 +54,10 @@ enum PhCity {
     case Digos
     case Dipolog
     case Dumaguete
-    case ElSalvador
+    case ElSalvador = "El Salvador"
     case Escalante
     case Gapan
-    case GeneralSantos
+    case GeneralSantos = "General Santos"
     case Gingoog
     case Guihulngan
     case Himamaylan

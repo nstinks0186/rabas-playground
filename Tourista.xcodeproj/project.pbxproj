@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72795E41BC84907001B6587 /* TourProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72795E31BC84907001B6587 /* TourProvider.swift */; settings = {ASSET_TAGS = (); }; };
+		D72795E61BC84BF3001B6587 /* TourPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72795E51BC84BF3001B6587 /* TourPackage.swift */; settings = {ASSET_TAGS = (); }; };
+		D72795EA1BC84F4A001B6587 /* TourDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72795E91BC84F4A001B6587 /* TourDestination.swift */; settings = {ASSET_TAGS = (); }; };
+		D72795F01BC85743001B6587 /* TestPhRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72795EF1BC85743001B6587 /* TestPhRegion.swift */; settings = {ASSET_TAGS = (); }; };
 		D72C9FB61BBF07A200044CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FB51BBF07A200044CD7 /* AppDelegate.swift */; };
 		D72C9FB81BBF07A200044CD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FB71BBF07A200044CD7 /* ViewController.swift */; };
 		D72C9FBB1BBF07A200044CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72C9FB91BBF07A200044CD7 /* Main.storyboard */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D72795E31BC84907001B6587 /* TourProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourProvider.swift; sourceTree = "<group>"; };
+		D72795E51BC84BF3001B6587 /* TourPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourPackage.swift; sourceTree = "<group>"; };
+		D72795E91BC84F4A001B6587 /* TourDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourDestination.swift; sourceTree = "<group>"; };
+		D72795EF1BC85743001B6587 /* TestPhRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPhRegion.swift; sourceTree = "<group>"; };
 		D72C9FB21BBF07A200044CD7 /* Tourista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourista.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72C9FB51BBF07A200044CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D72C9FB71BBF07A200044CD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,11 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D72795E01BC84774001B6587 /* New Group */ = {
+		D72795E01BC84774001B6587 /* Tour */ = {
 			isa = PBXGroup;
 			children = (
+				D72795E31BC84907001B6587 /* TourProvider.swift */,
+				D72795E51BC84BF3001B6587 /* TourPackage.swift */,
+				D72795E91BC84F4A001B6587 /* TourDestination.swift */,
 			);
-			name = "New Group";
+			name = Tour;
 			sourceTree = "<group>";
 		};
 		D72C9FA91BBF07A200044CD7 = {
@@ -114,7 +125,7 @@
 		D72C9FB41BBF07A200044CD7 /* Tourista */ = {
 			isa = PBXGroup;
 			children = (
-				D72795E01BC84774001B6587 /* New Group */,
+				D72795E01BC84774001B6587 /* Tour */,
 				D72C9FE51BBF08AB00044CD7 /* PhAddress */,
 				D72C9FB51BBF07A200044CD7 /* AppDelegate.swift */,
 				D72C9FB71BBF07A200044CD7 /* ViewController.swift */,
@@ -129,6 +140,7 @@
 		D72C9FC91BBF07A200044CD7 /* TouristaTests */ = {
 			isa = PBXGroup;
 			children = (
+				D72795EF1BC85743001B6587 /* TestPhRegion.swift */,
 				D72C9FCA1BBF07A200044CD7 /* TouristaTests.swift */,
 				D72C9FE61BBF09C800044CD7 /* PhAddressTests.swift */,
 				D72C9FCC1BBF07A200044CD7 /* Info.plist */,
@@ -288,8 +300,11 @@
 			files = (
 				D72C9FB81BBF07A200044CD7 /* ViewController.swift in Sources */,
 				D72C9FE91BBF28F200044CD7 /* PhRegion.swift in Sources */,
+				D72795E61BC84BF3001B6587 /* TourPackage.swift in Sources */,
 				D7D990B31BC465C900FFDFAC /* PhCity.swift in Sources */,
 				D72C9FE41BBF08A500044CD7 /* PhAddress.swift in Sources */,
+				D72795EA1BC84F4A001B6587 /* TourDestination.swift in Sources */,
+				D72795E41BC84907001B6587 /* TourProvider.swift in Sources */,
 				D7D990B11BC4628700FFDFAC /* PhProvince.swift in Sources */,
 				D72C9FB61BBF07A200044CD7 /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +316,7 @@
 			files = (
 				D72C9FE71BBF09C800044CD7 /* PhAddressTests.swift in Sources */,
 				D72C9FCB1BBF07A200044CD7 /* TouristaTests.swift in Sources */,
+				D72795F01BC85743001B6587 /* TestPhRegion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
