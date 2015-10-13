@@ -10,6 +10,12 @@ import Foundation
 
 class TourProvider {
     var name: String
+    
+    var address: String?
+    var phoneNumber: String?
+    var emailAdress: String?
+    var website: String?
+    
     init(name:String){
         self.name = name
     }
