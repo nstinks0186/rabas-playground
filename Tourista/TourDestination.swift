@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TourDestination {
+public class TourDestination {
     
     var region:PhRegion!
     var province:PhProvince!
@@ -133,7 +133,7 @@ class TourDestination {
     
 }
 
-func mocklistTourDestination() -> [TourDestination] {
+public func mocklistTourDestination() -> [TourDestination] {
     return [TourDestination.MetroManila,
         TourDestination.CAR,
         TourDestination.Ilocos,

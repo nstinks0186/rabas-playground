@@ -23,6 +23,7 @@
 		D72C9FE71BBF09C800044CD7 /* PhAddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FE61BBF09C800044CD7 /* PhAddressTests.swift */; settings = {ASSET_TAGS = (); }; };
 		D72C9FE91BBF28F200044CD7 /* PhRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C9FE81BBF28F200044CD7 /* PhRegion.swift */; settings = {ASSET_TAGS = (); }; };
 		D775BCCE1BC8628D002652D1 /* TestPhCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D775BCCD1BC8628D002652D1 /* TestPhCity.swift */; settings = {ASSET_TAGS = (); }; };
+		D7CC40231BCDA2640038CF0E /* TestTourDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC40221BCDA2640038CF0E /* TestTourDestination.swift */; settings = {ASSET_TAGS = (); }; };
 		D7D990B11BC4628700FFDFAC /* PhProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B01BC4628700FFDFAC /* PhProvince.swift */; settings = {ASSET_TAGS = (); }; };
 		D7D990B31BC465C900FFDFAC /* PhCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B21BC465C900FFDFAC /* PhCity.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -67,6 +68,7 @@
 		D72C9FE61BBF09C800044CD7 /* PhAddressTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhAddressTests.swift; sourceTree = "<group>"; };
 		D72C9FE81BBF28F200044CD7 /* PhRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhRegion.swift; sourceTree = "<group>"; };
 		D775BCCD1BC8628D002652D1 /* TestPhCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPhCity.swift; sourceTree = "<group>"; };
+		D7CC40221BCDA2640038CF0E /* TestTourDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTourDestination.swift; sourceTree = "<group>"; };
 		D7D990B01BC4628700FFDFAC /* PhProvince.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhProvince.swift; sourceTree = "<group>"; };
 		D7D990B21BC465C900FFDFAC /* PhCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhCity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +146,7 @@
 		D72C9FC91BBF07A200044CD7 /* TouristaTests */ = {
 			isa = PBXGroup;
 			children = (
+				D7CC40221BCDA2640038CF0E /* TestTourDestination.swift */,
 				D775BCCD1BC8628D002652D1 /* TestPhCity.swift */,
 				D72795F11BC85C1D001B6587 /* TestPhProvince.swift */,
 				D72795EF1BC85743001B6587 /* TestPhRegion.swift */,
@@ -324,6 +327,7 @@
 				D72C9FE71BBF09C800044CD7 /* PhAddressTests.swift in Sources */,
 				D72795F21BC85C1D001B6587 /* TestPhProvince.swift in Sources */,
 				D72C9FCB1BBF07A200044CD7 /* TouristaTests.swift in Sources */,
+				D7CC40231BCDA2640038CF0E /* TestTourDestination.swift in Sources */,
 				D72795F01BC85743001B6587 /* TestPhRegion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
