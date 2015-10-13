@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TourPackage {
+public class TourPackage {
     var name: String
     var provider: TourProvider
     
@@ -20,14 +20,20 @@ class TourPackage {
     
     var miscData: [String: AnyObject]?
     
-    var sourceURL: String?
+    public var sourceURL: String?
     
-    init(name:String, provider:String){
+    // MARK: - Init
+    
+    public init(name:String, provider:TourProvider){
         self.name = name
-        self.provider = TourProvider(name: provider)
+        self.provider = provider
     }
     
-    convenience init(name:String, provider:String, duration:Int){
+    public convenience init(name:String, provider:String){
+        self.init(name:name, provider:TourProvider(name: provider))
+    }
+    
+    public convenience init(name:String, provider:String, duration:Int){
         self.init(name:name, provider:provider)
         self.duration = duration
     }

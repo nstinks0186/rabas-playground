@@ -26,6 +26,8 @@
 		D7CC40231BCDA2640038CF0E /* TestTourDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC40221BCDA2640038CF0E /* TestTourDestination.swift */; settings = {ASSET_TAGS = (); }; };
 		D7D990B11BC4628700FFDFAC /* PhProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B01BC4628700FFDFAC /* PhProvince.swift */; settings = {ASSET_TAGS = (); }; };
 		D7D990B31BC465C900FFDFAC /* PhCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B21BC465C900FFDFAC /* PhCity.swift */; settings = {ASSET_TAGS = (); }; };
+		D9B3D02B1BCDCA6B00C0B9AE /* TestTourPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D02A1BCDCA6B00C0B9AE /* TestTourPackage.swift */; settings = {ASSET_TAGS = (); }; };
+		D9B3D02D1BCDCD6000C0B9AE /* TestTourProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D02C1BCDCD6000C0B9AE /* TestTourProvider.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		D7CC40221BCDA2640038CF0E /* TestTourDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTourDestination.swift; sourceTree = "<group>"; };
 		D7D990B01BC4628700FFDFAC /* PhProvince.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhProvince.swift; sourceTree = "<group>"; };
 		D7D990B21BC465C900FFDFAC /* PhCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhCity.swift; sourceTree = "<group>"; };
+		D9B3D02A1BCDCA6B00C0B9AE /* TestTourPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTourPackage.swift; sourceTree = "<group>"; };
+		D9B3D02C1BCDCD6000C0B9AE /* TestTourProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTourProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 		D72C9FC91BBF07A200044CD7 /* TouristaTests */ = {
 			isa = PBXGroup;
 			children = (
+				D9B3D02C1BCDCD6000C0B9AE /* TestTourProvider.swift */,
+				D9B3D02A1BCDCA6B00C0B9AE /* TestTourPackage.swift */,
 				D7CC40221BCDA2640038CF0E /* TestTourDestination.swift */,
 				D775BCCD1BC8628D002652D1 /* TestPhCity.swift */,
 				D72795F11BC85C1D001B6587 /* TestPhProvince.swift */,
@@ -324,10 +330,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D775BCCE1BC8628D002652D1 /* TestPhCity.swift in Sources */,
+				D9B3D02B1BCDCA6B00C0B9AE /* TestTourPackage.swift in Sources */,
 				D72C9FE71BBF09C800044CD7 /* PhAddressTests.swift in Sources */,
 				D72795F21BC85C1D001B6587 /* TestPhProvince.swift in Sources */,
 				D72C9FCB1BBF07A200044CD7 /* TouristaTests.swift in Sources */,
 				D7CC40231BCDA2640038CF0E /* TestTourDestination.swift in Sources */,
+				D9B3D02D1BCDCD6000C0B9AE /* TestTourProvider.swift in Sources */,
 				D72795F01BC85743001B6587 /* TestPhRegion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

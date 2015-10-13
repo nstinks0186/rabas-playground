@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TourProvider {
+public class TourProvider {
     var name: String
     
     var address: String?
@@ -16,7 +16,9 @@ class TourProvider {
     var emailAdress: String?
     var website: String?
     
-    init(name:String){
+    public var sourceURL: String?
+    
+    public init(name:String){
         self.name = name
     }
 }
