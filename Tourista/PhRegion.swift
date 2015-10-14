@@ -113,8 +113,6 @@ public enum PhRegion : String {
         }
     }
     
-    // MARK: - PhLocation Methods
-    
     func name() -> String {
         return self.rawValue
     }

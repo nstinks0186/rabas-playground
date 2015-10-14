@@ -198,5 +198,8 @@ public enum PhCity : String {
         }
     }
     
+    func name() -> String {
+        return self.rawValue
+    }
     
 }

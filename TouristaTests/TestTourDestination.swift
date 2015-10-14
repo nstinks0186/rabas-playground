@@ -26,6 +26,8 @@ class TestTourDestination: XCTestCase {
         print("list: \(list)")
         
         XCTAssert(list.count >= 18) // 18 regions
+        XCTAssert(list.count >= 99) // 18 regions + 81 provinces
+        XCTAssert(list.count >= 243) //18 regions + 81 provinces + 144 cities
     }
     
 //    func testPerformanceExample() {

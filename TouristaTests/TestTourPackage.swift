@@ -28,7 +28,7 @@ class TestTourPackage: XCTestCase {
         tmp.sourceURL = "http://www.philbooking.com/tours/philippines/camarines-norte/2d1n-calaguas-island-tour-package"
         print("package: \(tmp)")
         XCTAssertNotNil(tmp)
-        
+        4
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

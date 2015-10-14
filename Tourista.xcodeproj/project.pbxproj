@@ -26,6 +26,7 @@
 		D7CC40231BCDA2640038CF0E /* TestTourDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC40221BCDA2640038CF0E /* TestTourDestination.swift */; settings = {ASSET_TAGS = (); }; };
 		D7D990B11BC4628700FFDFAC /* PhProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B01BC4628700FFDFAC /* PhProvince.swift */; settings = {ASSET_TAGS = (); }; };
 		D7D990B31BC465C900FFDFAC /* PhCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B21BC465C900FFDFAC /* PhCity.swift */; settings = {ASSET_TAGS = (); }; };
+		D7F524BE1BCEAF3300B84A18 /* TourManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F524BD1BCEAF3300B84A18 /* TourManager.swift */; settings = {ASSET_TAGS = (); }; };
 		D9B3D02B1BCDCA6B00C0B9AE /* TestTourPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D02A1BCDCA6B00C0B9AE /* TestTourPackage.swift */; settings = {ASSET_TAGS = (); }; };
 		D9B3D02D1BCDCD6000C0B9AE /* TestTourProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D02C1BCDCD6000C0B9AE /* TestTourProvider.swift */; settings = {ASSET_TAGS = (); }; };
 		D9B3D0301BCDD12B00C0B9AE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D02F1BCDD12B00C0B9AE /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
@@ -74,6 +75,7 @@
 		D7CC40221BCDA2640038CF0E /* TestTourDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTourDestination.swift; sourceTree = "<group>"; };
 		D7D990B01BC4628700FFDFAC /* PhProvince.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhProvince.swift; sourceTree = "<group>"; };
 		D7D990B21BC465C900FFDFAC /* PhCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhCity.swift; sourceTree = "<group>"; };
+		D7F524BD1BCEAF3300B84A18 /* TourManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourManager.swift; sourceTree = "<group>"; };
 		D9B3D02A1BCDCA6B00C0B9AE /* TestTourPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTourPackage.swift; sourceTree = "<group>"; };
 		D9B3D02C1BCDCD6000C0B9AE /* TestTourProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTourProvider.swift; sourceTree = "<group>"; };
 		D9B3D02F1BCDD12B00C0B9AE /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = SwiftyJSON/Source/SwiftyJSON.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		D72C9FB41BBF07A200044CD7 /* Tourista */ = {
 			isa = PBXGroup;
 			children = (
+				D7F524BC1BCEAF1B00B84A18 /* Mock */,
 				D72795E01BC84774001B6587 /* Tour */,
 				D72C9FE51BBF08AB00044CD7 /* PhAddress */,
 				D72C9FB51BBF07A200044CD7 /* AppDelegate.swift */,
@@ -184,6 +187,14 @@
 				D7D990B21BC465C900FFDFAC /* PhCity.swift */,
 			);
 			name = PhAddress;
+			sourceTree = "<group>";
+		};
+		D7F524BC1BCEAF1B00B84A18 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D7F524BD1BCEAF3300B84A18 /* TourManager.swift */,
+			);
+			name = Mock;
 			sourceTree = "<group>";
 		};
 		D9B3D02E1BCDD10900C0B9AE /* SwiftyJSON */ = {
@@ -334,6 +345,7 @@
 				D72795E41BC84907001B6587 /* TourProvider.swift in Sources */,
 				D7D990B11BC4628700FFDFAC /* PhProvince.swift in Sources */,
 				D72C9FB61BBF07A200044CD7 /* AppDelegate.swift in Sources */,
+				D7F524BE1BCEAF3300B84A18 /* TourManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
