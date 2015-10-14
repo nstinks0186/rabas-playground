@@ -20,7 +20,7 @@ public enum PhCity : String {
     case Bais
     case Balanga
     case Batac
-    case Batangas
+    case Batangas = "Batangas City"
     case Bayawan
     case Baybay
     case Bayugan
@@ -44,13 +44,13 @@ public enum PhCity : String {
     case Catbalogan
     case Cauayan
     case Cavite
-    case Cebu
+    case Cebu = "Cebu City"
     case Cotabato
     case Dagupan
     case Danao
     case Dapitan
     case Dasmarinas
-    case Davao
+    case Davao = "Davao City"
     case Digos
     case Dipolog
     case Dumaguete
@@ -63,7 +63,7 @@ public enum PhCity : String {
     case Himamaylan
     case Ilagan
     case Iligan
-    case Iloilo
+    case Iloilo = "Iloilo City"
     case Imus
     case Iriga
     case Isabela
@@ -109,25 +109,25 @@ public enum PhCity : String {
     case Pasay
     case Pasig
     case Passi
-    case PuertoPrincesa
-    case Quezon
+    case PuertoPrincesa = "Puerto Princesa"
+    case Quezon = "Quezon City"
     case Roxas
     case Sagay
     case Samal
-    case SanCarlosNegros
-    case SanCarlosPangasinan
-    case SanFernandoLaUnion
-    case SanFernandoPampanga
-    case SanJose
-    case SanJoseDelMonte
-    case SanJuan
-    case SanPablo
-    case SanPedro
-    case SantaRosa
+    case SanCarlosNegros = "San Carlos, Negros Occidental"
+    case SanCarlosPangasinan = "San Carlos, Pangasinan"
+    case SanFernandoLaUnion = "San Fernando, La Union"
+    case SanFernandoPampanga = "San Fernando, Pamapanga"
+    case SanJose = "San Jose"
+    case SanJoseDelMonte = "San Jose del Monte"
+    case SanJuan = "San Juan"
+    case SanPablo = "San Pablo"
+    case SanPedro = "San Pedro"
+    case SantaRosa = "Santa Rosa"
     case Santiago
     case Silay
     case Sipalay
-    case Sorsogon
+    case Sorsogon = "Sorsogon City"
     case Surigao
     case Tabaco
     case Tabuk
@@ -137,8 +137,8 @@ public enum PhCity : String {
     case Tagbilaran
     case Taguig
     case Tagum
-    case TalisayNegros
-    case TalisayCebu
+    case TalisayNegros = "Talisay, Negros Occidental"
+    case TalisayCebu = "Talisay, Cebu"
     case Tanauan
     case Tandag
     case Tangub
@@ -146,14 +146,14 @@ public enum PhCity : String {
     case Tarlac
     case Tayabas
     case Toledo
-    case TreceMartires
+    case TreceMartires = "Trece Martires"
     case Tuguegarao
     case Urdaneta
     case Valencia
     case Valenzuela
     case Victorias
     case Vigan
-    case Zamboanga
+    case Zamboanga = "Zamboanga City"
     
     public static let allValues = [Alaminos, Angeles, Antipolo, Bacolod, Bacoor, Bago, Baguio, Bais, Balanga, Batac, Batangas, Bayawan, Baybay, Bayugan, Binan, Bislig, Bogo, Borongan, Butuan, Cabadbaran, Cabanatuan, Cabuyao, Cadiz, CagayanDeOro, Calamba, Calapan, Calbayog, Caloocan, Candon, Canlaon, Carcar, Catbalogan, Cauayan, Cavite, Cebu, Cotabato, Dagupan, Danao, Dapitan, Dasmarinas, Davao, Digos, Dipolog, Dumaguete, ElSalvador, Escalante, Gapan, GeneralSantos, Gingoog, Guihulngan, Himamaylan, Ilagan, Iligan, Iloilo, Imus, Iriga, Isabela, Kabankalan, Kidapawan, Koronadal, LaCarlota, Lamitan, Laoag, LapuLapu, LasPinas, Legazpi, Ligao, Lipa, Lucena, Maasin, Mabalacat, Makati, Malabon, Malaybalay, Malolos, Mandaluyong, Mandaue, Manila, Marawi, Marikina, Masbate, Mati, Meycauayan, Munoz, Muntinlupa, NagaCamarinesSur, NagaCebu, Navotas, Olongapo, Ormoc, Oroquieta, Ozamiz, Pagadian, Palayan, Panabo, Paranaque, Pasay, Pasig, Passi, PuertoPrincesa, Quezon, Roxas, Sagay, Samal, SanCarlosNegros, SanCarlosPangasinan, SanFernandoLaUnion, SanFernandoPampanga, SanJose, SanJoseDelMonte, SanJuan, SanPablo, SanPedro, SantaRosa, Santiago, Silay, Sipalay, Sorsogon, Surigao, Tabaco, Tabuk, Tacloban, Tacurong, Tagaytay, Tagbilaran, Taguig, Tagum, TalisayNegros, TalisayCebu, Tanauan, Tandag, Tangub, Tanjay, Tarlac, Tayabas, Toledo, TreceMartires, Tuguegarao, Urdaneta, Valencia, Valenzuela, Victorias, Vigan, Zamboanga]
     

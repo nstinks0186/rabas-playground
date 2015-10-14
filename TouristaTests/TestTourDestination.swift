@@ -21,8 +21,16 @@ class TestTourDestination: XCTestCase {
         super.tearDown()
     }
     
+    func tester() {
+        let results:[TourDestination] = mocklistTourDestination()
+        let sorted = results.sort { $0.name < $1.name };
+        for dest in sorted {
+            print("dest[\(dest)]: \(dest.name)")
+        }
+    }
+    
     func test_mocklistTourDestination() {
-        let list = mocklistTourDestination();
+        let list = mocklistTourDestination()
         print("list: \(list)")
         
         XCTAssert(list.count >= 18) // 18 regions
@@ -46,6 +54,10 @@ class TestTourDestination: XCTestCase {
         keyword = "Naga"
         results = mocksearchTourDestination(keyword)
         XCTAssert(results.count >= 2)
+        
+        keyword = "Davao"
+        results = mocksearchTourDestination(keyword)
+        XCTAssert(results.count >= 6)
         
         for dest in results {
             print("dest[\(dest)]: \(dest.name)")

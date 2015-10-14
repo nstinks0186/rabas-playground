@@ -77,7 +77,7 @@ public func mocksearchTourDestination(keyword:String) -> [TourDestination] {
             }
         }
     }
-    return ret
+    return ret.sort { $0.name < $1.name };
 }
 
 extension PhRegion {

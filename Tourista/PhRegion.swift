@@ -10,24 +10,24 @@
 import Foundation
 
 public enum PhRegion : String {
-    case NCR = "National Capital Region"
-    case CAR = "Cordillera Administrative Region"
+    case NCR = "Metro Manila" // "National Capital Region", "NCR"
+    case CAR = "CAR" // "Cordillera Administrative Region"
     case I = "Ilocos Region"
     case II = "Cagayan Valley"
     case III = "Central Luzon"
     case IVA = "CALABARZON"
     case IVB = "MIMAROPA"
-    case V = "Bicol Region"
+    case V = "Bicol"
     case VI = "Western Visayas"
     case VII = "Central Visayas"
     case VIII = "Eastern Visayas"
-    case NIR = "Negros Island Region"
+    case NIR = "NIR" //"Negros Island Region"
     case IX = "Zamboanga Peninsula"
     case X = "Northern Mindanao"
     case XI = "Davao Region"
     case XII = "SOCCSKSARGEN"
     case XIII = "Caraga"
-    case ARMM = "Autonomous Region in Muslim Mindanao"
+    case ARMM = "ARMM" //"Autonomous Region in Muslim Mindanao"
     
     public static let allValues = [NCR, CAR, I, II, III, IVA, IVB, V, VI, VII, VIII, NIR, IX, X, XI, XII, XIII, ARMM]
     
