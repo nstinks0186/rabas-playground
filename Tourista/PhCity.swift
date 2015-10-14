@@ -270,44 +270,11 @@ public enum PhCity : String {
         }
     }
     
-    func region() -> PhRegion {
-        switch (self) {
-        case .Baguio, .Tabuk:
-            return .CAR
-        case .Bacolod, .Bago, .Bais, .Bayawan, .Cadiz, .Canlaon, .Dumaguete, .Escalante, .Guihulngan, .Himamaylan, .Kabankalan, .LaCarlota, .Sagay, .SanCarlosNegros, .Silay, .Sipalay, .TalisayNegros, .Tanjay, .Victorias:
-            return .NIR
-        case .Caloocan, .LasPinas, .Makati, .Malabon, .Mandaluyong, .Manila, .Marikina, .Muntinlupa, .Navotas, .Paranaque, .Pasay, .Pasig, .Quezon, .SanJuan, .Taguig, .Valenzuela: // Pateros
-            return .NCR
-        case .Lamitan, .Marawi:
-            return .ARMM
-        case .Alaminos, .Batac, .Candon, .Dagupan, .Laoag, .SanCarlosPangasinan, .SanFernandoLaUnion, .Urdaneta, .Vigan:
-            return .I
-        case .Cauayan, .Ilagan, .Tuguegarao, .Santiago:
-            return .II
-        case .Angeles, .Balanga, .Cabanatuan, .Gapan, .Mabalacat, .Malolos, .Meycauayan, .Munoz, .Olongapo, .Palayan, .SanFernandoPampanga, .SanJose, .SanJoseDelMonte, .Tarlac:
-            return .III
-        case .Antipolo, .Bacoor, .Batangas, .Binan, .Cabuyao, .Calamba, .Cavite, .Dasmarinas, .Imus, .Lipa, .Lucena, .SanPablo, .SanPedro, .SantaRosa, .Tagaytay, .Tanauan, .Tayabas, .TreceMartires:
-            return .IVA
-        case .Calapan, .PuertoPrincesa:
-            return .IVB
-        case .Ligao, .Masbate, .Tabaco, .Iriga, .NagaCamarinesSur, .Legazpi, .Sorsogon:
-            return .V
-        case .Passi, .Roxas, .Iloilo:
-            return .VI
-        case .Bogo, .Cebu, .Carcar, .Danao, .LapuLapu, .Mandaue, .NagaCebu, .Toledo, .Tagbilaran, .TalisayCebu:
-            return .VII
-        case .Baybay, .Borongan, .Calbayog, .Catbalogan, .Maasin, .Ormoc, .Tacloban:
-            return .VIII
-        case .Zamboanga, .Isabela, .Dipolog, .Pagadian, .Dapitan: // Ipil
-            return .IX
-        case .CagayanDeOro, .Malaybalay, .Valencia, .Oroquieta, .Ozamiz, .Tangub, .ElSalvador, .Gingoog, .Iligan:
-            return .X
-        case .Digos, .Mati, .Panabo, .Tagum, .Samal, .Davao:
-            return .XI
-        case .Cotabato, .Kidapawan, .Koronadal, .Tacurong, .GeneralSantos:
-            return .XII
-        case .Bayugan, .Bislig, .Butuan, .Cabadbaran, .Surigao, .Tandag:
-            return .XIII
+    public func region() -> PhRegion {
+        if let province = self.province() {
+            return province.region()
+        } else {
+            return PhRegion.NCR
         }
     }
     
