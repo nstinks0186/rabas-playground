@@ -95,8 +95,8 @@ public enum PhCity : String {
     case Meycauayan
     case Munoz
     case Muntinlupa
-    case NagaCamarinesSur
-    case NagaCebu
+    case NagaCamarinesSur = "Naga, Camarines Sur"
+    case NagaCebu = "Naga, Cebu"
     case Navotas
     case Olongapo
     case Ormoc

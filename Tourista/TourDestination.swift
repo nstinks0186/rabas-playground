@@ -10,7 +10,7 @@ import Foundation
 
 public class TourDestination {
     
-    var name: String = ""
+    public var name: String = ""
     
     var region:PhRegion!
     var province:PhProvince!
@@ -52,6 +52,32 @@ public func mocklistTourDestination() -> [TourDestination] {
         list.append(city.tourDestination)
     }
     return list
+}
+
+public func mocksearchTourDestination(keyword:String) -> [TourDestination] {
+    let list = mocklistTourDestination()
+    var ret:[TourDestination] = []
+    for dest in list {
+        if let region = dest.region {
+            if(region.name().lowercaseString.hasPrefix(keyword.lowercaseString)){
+                ret.append(dest)
+                continue;
+            }
+        }
+        if let province = dest.province {
+            if(province.name().lowercaseString.hasPrefix(keyword.lowercaseString)){
+                ret.append(dest)
+                continue;
+            }
+        }
+        if let city = dest.city {
+            if(city.name().lowercaseString.hasPrefix(keyword.lowercaseString)){
+                ret.append(dest)
+                continue;
+            }
+        }
+    }
+    return ret
 }
 
 extension PhRegion {

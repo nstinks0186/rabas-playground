@@ -30,6 +30,29 @@ class TestTourDestination: XCTestCase {
         XCTAssert(list.count >= 243) //18 regions + 81 provinces + 144 cities
     }
     
+    func test_mocksearchTourDestination(){
+        var keyword:String = "Quezon"
+        var results = mocksearchTourDestination(keyword)
+        XCTAssert(results.count >= 4)
+        
+        keyword = "Albay"
+        results = mocksearchTourDestination(keyword)
+        XCTAssert(results.count >= 4)
+        
+        keyword = "SomeNonExistentDestination"
+        results = mocksearchTourDestination(keyword)
+        XCTAssert(results.count == 0)
+        
+        keyword = "Naga"
+        results = mocksearchTourDestination(keyword)
+        XCTAssert(results.count >= 2)
+        
+        for dest in results {
+            print("dest[\(dest)]: \(dest.name)")
+        }
+        
+    }
+    
 //    func testPerformanceExample() {
 //        // This is an example of a performance test case.
 //        self.measureBlock {
