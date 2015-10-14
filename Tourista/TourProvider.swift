@@ -18,9 +18,28 @@ public class TourProvider {
     
     public var sourceURL: String?
     
+    // MARK: Init
+    
     public init(name:String){
         self.name = name
     }
+    
+    public convenience init(name:String, source:String){
+        self.init(name:name)
+        self.sourceURL = source
+    }
+    
+    // MARK: SwiftyJSON
+    
+    public var json:JSON {
+        get {
+            return [
+                "name":self.name,
+                "_sourceURL":(self.sourceURL != nil ? self.sourceURL! : "")
+            ]
+        }
+    }
+    
 }
 
 

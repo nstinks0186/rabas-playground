@@ -28,6 +28,7 @@
 		D7D990B31BC465C900FFDFAC /* PhCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D990B21BC465C900FFDFAC /* PhCity.swift */; settings = {ASSET_TAGS = (); }; };
 		D9B3D02B1BCDCA6B00C0B9AE /* TestTourPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D02A1BCDCA6B00C0B9AE /* TestTourPackage.swift */; settings = {ASSET_TAGS = (); }; };
 		D9B3D02D1BCDCD6000C0B9AE /* TestTourProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D02C1BCDCD6000C0B9AE /* TestTourProvider.swift */; settings = {ASSET_TAGS = (); }; };
+		D9B3D0301BCDD12B00C0B9AE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D02F1BCDD12B00C0B9AE /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		D7D990B21BC465C900FFDFAC /* PhCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhCity.swift; sourceTree = "<group>"; };
 		D9B3D02A1BCDCA6B00C0B9AE /* TestTourPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTourPackage.swift; sourceTree = "<group>"; };
 		D9B3D02C1BCDCD6000C0B9AE /* TestTourProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTourProvider.swift; sourceTree = "<group>"; };
+		D9B3D02F1BCDD12B00C0B9AE /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = SwiftyJSON/Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				D72C9FC91BBF07A200044CD7 /* TouristaTests */,
 				D72C9FD41BBF07A200044CD7 /* TouristaUITests */,
 				D72C9FB31BBF07A200044CD7 /* Products */,
+				D9B3D02E1BCDD10900C0B9AE /* SwiftyJSON */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +184,14 @@
 				D7D990B21BC465C900FFDFAC /* PhCity.swift */,
 			);
 			name = PhAddress;
+			sourceTree = "<group>";
+		};
+		D9B3D02E1BCDD10900C0B9AE /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				D9B3D02F1BCDD12B00C0B9AE /* SwiftyJSON.swift */,
+			);
+			name = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +327,7 @@
 				D72C9FB81BBF07A200044CD7 /* ViewController.swift in Sources */,
 				D72C9FE91BBF28F200044CD7 /* PhRegion.swift in Sources */,
 				D72795E61BC84BF3001B6587 /* TourPackage.swift in Sources */,
+				D9B3D0301BCDD12B00C0B9AE /* SwiftyJSON.swift in Sources */,
 				D7D990B31BC465C900FFDFAC /* PhCity.swift in Sources */,
 				D72C9FE41BBF08A500044CD7 /* PhAddress.swift in Sources */,
 				D72795EA1BC84F4A001B6587 /* TourDestination.swift in Sources */,
