@@ -34,7 +34,7 @@ public class TourDestination {
     convenience init(city:PhCity){
         self.init(name:city.name())
         self.city = city
-// TODO: self.province = city.province()
+        self.province = city.province()
         self.region = city.region()
     }
     

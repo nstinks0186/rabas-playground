@@ -89,7 +89,7 @@ public enum PhCity : String {
     case Mandaue
     case Manila
     case Marawi
-    case Markikina
+    case Marikina
     case Masbate
     case Mati
     case Meycauayan
@@ -155,7 +155,120 @@ public enum PhCity : String {
     case Vigan
     case Zamboanga
     
-    public static let allValues = [Alaminos, Angeles, Antipolo, Bacolod, Bacoor, Bago, Baguio, Bais, Balanga, Batac, Batangas, Bayawan, Baybay, Bayugan, Binan, Bislig, Bogo, Borongan, Butuan, Cabadbaran, Cabanatuan, Cabuyao, Cadiz, CagayanDeOro, Calamba, Calapan, Calbayog, Caloocan, Candon, Canlaon, Carcar, Catbalogan, Cauayan, Cavite, Cebu, Cotabato, Dagupan, Danao, Dapitan, Dasmarinas, Davao, Digos, Dipolog, Dumaguete, ElSalvador, Escalante, Gapan, GeneralSantos, Gingoog, Guihulngan, Himamaylan, Ilagan, Iligan, Iloilo, Imus, Iriga, Isabela, Kabankalan, Kidapawan, Koronadal, LaCarlota, Lamitan, Laoag, LapuLapu, LasPinas, Legazpi, Ligao, Lipa, Lucena, Maasin, Mabalacat, Makati, Malabon, Malaybalay, Malolos, Mandaluyong, Mandaue, Manila, Marawi, Markikina, Masbate, Mati, Meycauayan, Munoz, Muntinlupa, NagaCamarinesSur, NagaCebu, Navotas, Olongapo, Ormoc, Oroquieta, Ozamiz, Pagadian, Palayan, Panabo, Paranaque, Pasay, Pasig, Passi, PuertoPrincesa, Quezon, Roxas, Sagay, Samal, SanCarlosNegros, SanCarlosPangasinan, SanFernandoLaUnion, SanFernandoPampanga, SanJose, SanJoseDelMonte, SanJuan, SanPablo, SanPedro, SantaRosa, Santiago, Silay, Sipalay, Sorsogon, Surigao, Tabaco, Tabuk, Tacloban, Tacurong, Tagaytay, Tagbilaran, Taguig, Tagum, TalisayNegros, TalisayCebu, Tanauan, Tandag, Tangub, Tanjay, Tarlac, Tayabas, Toledo, TreceMartires, Tuguegarao, Urdaneta, Valencia, Valenzuela, Victorias, Vigan, Zamboanga]
+    public static let allValues = [Alaminos, Angeles, Antipolo, Bacolod, Bacoor, Bago, Baguio, Bais, Balanga, Batac, Batangas, Bayawan, Baybay, Bayugan, Binan, Bislig, Bogo, Borongan, Butuan, Cabadbaran, Cabanatuan, Cabuyao, Cadiz, CagayanDeOro, Calamba, Calapan, Calbayog, Caloocan, Candon, Canlaon, Carcar, Catbalogan, Cauayan, Cavite, Cebu, Cotabato, Dagupan, Danao, Dapitan, Dasmarinas, Davao, Digos, Dipolog, Dumaguete, ElSalvador, Escalante, Gapan, GeneralSantos, Gingoog, Guihulngan, Himamaylan, Ilagan, Iligan, Iloilo, Imus, Iriga, Isabela, Kabankalan, Kidapawan, Koronadal, LaCarlota, Lamitan, Laoag, LapuLapu, LasPinas, Legazpi, Ligao, Lipa, Lucena, Maasin, Mabalacat, Makati, Malabon, Malaybalay, Malolos, Mandaluyong, Mandaue, Manila, Marawi, Marikina, Masbate, Mati, Meycauayan, Munoz, Muntinlupa, NagaCamarinesSur, NagaCebu, Navotas, Olongapo, Ormoc, Oroquieta, Ozamiz, Pagadian, Palayan, Panabo, Paranaque, Pasay, Pasig, Passi, PuertoPrincesa, Quezon, Roxas, Sagay, Samal, SanCarlosNegros, SanCarlosPangasinan, SanFernandoLaUnion, SanFernandoPampanga, SanJose, SanJoseDelMonte, SanJuan, SanPablo, SanPedro, SantaRosa, Santiago, Silay, Sipalay, Sorsogon, Surigao, Tabaco, Tabuk, Tacloban, Tacurong, Tagaytay, Tagbilaran, Taguig, Tagum, TalisayNegros, TalisayCebu, Tanauan, Tandag, Tangub, Tanjay, Tarlac, Tayabas, Toledo, TreceMartires, Tuguegarao, Urdaneta, Valencia, Valenzuela, Victorias, Vigan, Zamboanga]
+    
+    public func province() -> PhProvince! {
+        switch self {
+        case .Butuan, .Cabadbaran:
+            return PhProvince.AgusanDelNorte
+        case .Bayugan:
+            return PhProvince.AgusanDelSur
+        case .Legazpi, .Ligao, .Tabaco:
+            return PhProvince.Albay
+        case .Isabela, .Lamitan:
+            return PhProvince.Basilan
+        case .Balanga:
+            return PhProvince.Bataan
+        case .Batangas, .Lipa, .Tanauan:
+            return PhProvince.Batangas
+        case .Baguio:
+            return PhProvince.Benguet
+        case .Tagbilaran:
+            return PhProvince.Bohol
+        case .Malaybalay, .Valencia, .Malolos, .Meycauayan, .SanJoseDelMonte:
+            return PhProvince.Bulacan
+        case .Tuguegarao:
+            return PhProvince.Cagayan
+        case .Iriga, .NagaCamarinesSur:
+            return PhProvince.CamarinesSur
+        case .Roxas:
+            return PhProvince.Capiz
+        case .Bacoor, .Cavite, .Dasmarinas, .Imus, .Tagaytay, .TreceMartires:
+            return PhProvince.Cavite
+        case .Bogo, .Carcar, .Cebu, .Danao, .LapuLapu, .Mandaue, .NagaCebu, .TalisayCebu, .Toledo:
+            return PhProvince.Cebu
+        case .Kidapawan:
+            return PhProvince.Cotabato
+        case .Panabo, .Samal, Tagum:
+            return PhProvince.DavaoDelNorte
+        case .Davao, .Digos:
+            return PhProvince.DavaoDelSur
+        case .Mati:
+            return PhProvince.DavaoOriental
+        case .Borongan:
+            return PhProvince.EasternSamar
+        case .Batac, .Laoag:
+            return PhProvince.IlocosNorte
+        case .Candon, .Vigan:
+            return PhProvince.IlocosSur
+        case .Iloilo, .Passi:
+            return PhProvince.Iloilo
+        case .Cauayan, .Ilagan, .Santiago:
+            return PhProvince.Isabela
+        case .Tabuk:
+            return PhProvince.Kalinga
+        case .SanFernandoLaUnion:
+            return PhProvince.LaUnion
+        case .Binan, .Cabuyao, .Calamba, .SanPablo, .SanPedro, .SantaRosa:
+            return PhProvince.Laguna
+        case .Iligan:
+            return PhProvince.LanaoDelNorte
+        case .Marawi:
+            return PhProvince.LanaoDelSur
+        case .Baybay, .Ormoc, .Tacloban:
+            return PhProvince.Leyte
+        case .Cotabato:
+            return PhProvince.Maguindanao
+        case .Masbate:
+            return PhProvince.Masbate
+        case .Oroquieta, .Ozamiz, .Tangub:
+            return PhProvince.MisamisOccidental
+        case .CagayanDeOro, .ElSalvador, .Gingoog:
+            return PhProvince.MisamisOriental
+        case .Bacolod, Bago, .Cadiz, .Escalante, .Himamaylan, .Kabankalan, .LaCarlota, .Sagay, .SanCarlosNegros, .Silay, .Sipalay, .TalisayNegros, .Victorias:
+            return PhProvince.NegrosOccidental
+        case .Bais, .Bayawan, .Canlaon, .Dumaguete, .Guihulngan, .Tanjay:
+            return PhProvince.NegrosOriental
+        case .Cabanatuan, .Gapan, .Munoz, .Palayan, .SanJose:
+            return PhProvince.NuevaEcija
+        case .Calapan:
+            return PhProvince.OrientalMindoro
+        case .PuertoPrincesa:
+            return PhProvince.Palawan
+        case .Angeles, .Mabalacat, .SanFernandoPampanga:
+            return PhProvince.Pampanga
+        case .Alaminos, .Dagupan, .SanCarlosPangasinan, .Urdaneta:
+            return PhProvince.Pangasinan
+        case .Lucena, .Tayabas:
+            return PhProvince.Quezon
+        case .Antipolo:
+            return PhProvince.Rizal
+        case .Calbayog, .Catbalogan:
+            return PhProvince.Samar
+        case .Sorsogon:
+            return PhProvince.Sorsogon
+        case .GeneralSantos, .Koronadal:
+            return PhProvince.SouthCotabato
+        case .Maasin:
+            return PhProvince.SouthernLeyte
+        case .Tacurong:
+            return PhProvince.SultanKudarat
+        case .Surigao:
+            return PhProvince.SurigaoDelNorte
+        case .Bislig, .Tandag:
+            return PhProvince.SurigaoDelSur
+        case .Tarlac:
+            return PhProvince.Tarlac
+        case .Olongapo:
+            return PhProvince.Zambales
+        case .Dapitan, .Dipolog:
+            return PhProvince.ZamboangaDelNorte
+        case .Pagadian, .Zamboanga:
+            return PhProvince.ZamboangaDelSur
+        case .Manila, .Caloocan, .Pasay, .Quezon, .LasPinas, .Makati, .Malabon, .Mandaluyong, .Marikina, .Muntinlupa, .Navotas, .Paranaque, .Pasig, .SanJuan, .Taguig, .Valenzuela:
+            return nil
+        }
+    }
     
     func region() -> PhRegion {
         switch (self) {
@@ -163,7 +276,7 @@ public enum PhCity : String {
             return .CAR
         case .Bacolod, .Bago, .Bais, .Bayawan, .Cadiz, .Canlaon, .Dumaguete, .Escalante, .Guihulngan, .Himamaylan, .Kabankalan, .LaCarlota, .Sagay, .SanCarlosNegros, .Silay, .Sipalay, .TalisayNegros, .Tanjay, .Victorias:
             return .NIR
-        case .Caloocan, .LasPinas, .Makati, .Malabon, .Mandaluyong, .Manila, .Markikina, .Muntinlupa, .Navotas, .Paranaque, .Pasay, .Pasig, .Quezon, .SanJuan, .Taguig, .Valenzuela: // Pateros
+        case .Caloocan, .LasPinas, .Makati, .Malabon, .Mandaluyong, .Manila, .Marikina, .Muntinlupa, .Navotas, .Paranaque, .Pasay, .Pasig, .Quezon, .SanJuan, .Taguig, .Valenzuela: // Pateros
             return .NCR
         case .Lamitan, .Marawi:
             return .ARMM
@@ -198,7 +311,7 @@ public enum PhCity : String {
         }
     }
     
-    func name() -> String {
+    public func name() -> String {
         return self.rawValue
     }
     

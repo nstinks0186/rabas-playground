@@ -22,6 +22,15 @@ class TestPhCity: XCTestCase {
         super.tearDown()
     }
     
+    func tester_province() {
+        for city in PhCity.allValues {
+            let province = city.province()
+            if(province == nil) {
+                print("\(city.name())")
+            }
+        }
+    }
+    
     func testAllValues() {
         let allVals = PhCity.allValues
         XCTAssert(allVals.count == 144) // There are 144 cities of the Philippines as of December 31, 2013. (https://en.wikipedia.org/wiki/List_of_cities_in_the_Philippines)

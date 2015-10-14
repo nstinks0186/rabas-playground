@@ -133,7 +133,7 @@ public enum PhProvince: String {
         }
     }
     
-    func name() -> String {
+    public func name() -> String {
         return self.rawValue
     }
     
