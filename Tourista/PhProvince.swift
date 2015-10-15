@@ -65,7 +65,7 @@ public enum PhProvince: String {
     case NegrosOriental = "Negros Oriental"
     case NorthernSamar = "Northern Samar"
     case NuevaEcija = "Nueva Ecija"
-    case NuevaViscaya = "Nueva Viscaya"
+    case NuevaVizcaya = "Nueva Vizcaya"
     case OccidentalMindoro = "Occidental Mindoro"
     case OrientalMindoro = "Oriental Mindoro"
     case Palawan = "Palawan"
@@ -92,7 +92,7 @@ public enum PhProvince: String {
     case ZamboangaDelSur = "Zamboanga del Sur"
     case ZamboangaSibugay = "Zamboanga Sibugay"
     
-    public static let allValues = [Abra, AgusanDelNorte, AgusanDelSur, Aklan, Albay, Antique, Apayao, Aurora, Basilan, Bataan, Batanes, Batangas, Benguet, Biliran, Bohol, Bukidnon, Bulacan, Cagayan, CamarinesNorte, CamarinesSur, Camiguin, Capiz, Catanduanes, Cavite, Cebu, CompostelaValley, Cotabato, DavaoDelNorte, DavaoDelSur, DavaoOccidental, DavaoOriental, DinagatIslands, EasternSamar, Guimaras, Ifugao, IlocosNorte, IlocosSur, Iloilo, Isabela, Kalinga, LaUnion, Laguna, LanaoDelNorte, LanaoDelSur, Leyte, Maguindanao, Marinduque, Masbate, MisamisOccidental, MisamisOriental, MountainProvince, NegrosOccidental, NegrosOriental, NorthernSamar, NuevaEcija, NuevaViscaya, OccidentalMindoro, OrientalMindoro, Palawan, Pampanga, Pangasinan, Quezon, Quirino, Rizal, Romblon, Samar, Sarangani, Siquijor, Sorsogon, SouthCotabato, SouthernLeyte, SultanKudarat, Sulu, SurigaoDelNorte, SurigaoDelSur, Tarlac, TawiTawi, Zambales, ZamboangaDelNorte, ZamboangaDelSur, ZamboangaSibugay]
+    public static let allValues = [Abra, AgusanDelNorte, AgusanDelSur, Aklan, Albay, Antique, Apayao, Aurora, Basilan, Bataan, Batanes, Batangas, Benguet, Biliran, Bohol, Bukidnon, Bulacan, Cagayan, CamarinesNorte, CamarinesSur, Camiguin, Capiz, Catanduanes, Cavite, Cebu, CompostelaValley, Cotabato, DavaoDelNorte, DavaoDelSur, DavaoOccidental, DavaoOriental, DinagatIslands, EasternSamar, Guimaras, Ifugao, IlocosNorte, IlocosSur, Iloilo, Isabela, Kalinga, LaUnion, Laguna, LanaoDelNorte, LanaoDelSur, Leyte, Maguindanao, Marinduque, Masbate, MisamisOccidental, MisamisOriental, MountainProvince, NegrosOccidental, NegrosOriental, NorthernSamar, NuevaEcija, NuevaVizcaya, OccidentalMindoro, OrientalMindoro, Palawan, Pampanga, Pangasinan, Quezon, Quirino, Rizal, Romblon, Samar, Sarangani, Siquijor, Sorsogon, SouthCotabato, SouthernLeyte, SultanKudarat, Sulu, SurigaoDelNorte, SurigaoDelSur, Tarlac, TawiTawi, Zambales, ZamboangaDelNorte, ZamboangaDelSur, ZamboangaSibugay]
     
     func region() -> PhRegion {
         switch (self) {
@@ -104,7 +104,7 @@ public enum PhProvince: String {
             return .ARMM
         case .IlocosNorte, .IlocosSur, .LaUnion, .Pangasinan:
             return .I
-        case .Batanes, .Cagayan, .Isabela, .NuevaViscaya, .Quirino:
+        case .Batanes, .Cagayan, .Isabela, .NuevaVizcaya, .Quirino:
             return .II
         case .Aurora, .Bataan, .Bulacan, .NuevaEcija, .Pampanga, .Tarlac, .Zambales:
             return .III
