@@ -35,7 +35,8 @@ class TestTourDestination: XCTestCase {
         
         XCTAssert(list.count >= 18) // 18 regions
         XCTAssert(list.count >= 99) // 18 regions + 81 provinces
-        XCTAssert(list.count >= 243) //18 regions + 81 provinces + 144 cities
+        XCTAssert(list.count >= 243) // 18 regions + 81 provinces + 144 cities
+        XCTAssert(list.count >= 1733) // 18 regions + 81 provinces + 144 cities + 1,490 municipalities
     }
     
     func test_mocksearchTourDestination(){

@@ -15,6 +15,7 @@ public class TourDestination {
     var region:PhRegion!
     var province:PhProvince!
     var city:PhCity!
+    var municipality:PhMunicipality!
     
     init(name:String){
         self.name = name
@@ -38,6 +39,13 @@ public class TourDestination {
         self.region = city.region()
     }
     
+    convenience init(municipality:PhMunicipality){
+        self.init(name:municipality.name())
+        self.municipality = municipality
+        self.province = municipality.province()
+        self.region = municipality.region()
+    }
+    
 }
 
 public func mocklistTourDestination() -> [TourDestination] {
@@ -50,6 +58,9 @@ public func mocklistTourDestination() -> [TourDestination] {
     }
     for city in PhCity.allValues {
         list.append(city.tourDestination)
+    }
+    for municipality in PhMunicipality.allValues {
+        list.append(municipality.tourDestination)
     }
     return list
 }
@@ -100,6 +111,14 @@ extension PhCity{
     var tourDestination: TourDestination {
         get {
             return TourDestination(city: self)
+        }
+    }
+}
+
+extension PhMunicipality{
+    var tourDestination: TourDestination {
+        get {
+            return TourDestination(municipality: self)
         }
     }
 }

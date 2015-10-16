@@ -1583,6 +1583,172 @@ public enum PhMunicipality : String {
     case Titay
     case Tungawan
     
+    public static let allValues = [
+        // Abra
+        Bangued, Boliney, Bucay, Bucloc, Daguioman, Danglas, DoloresAbra, LaPazAbra, Lacub, Lagangilang, Lagayan, Langiden, LicuanBaay, Luba, Malibcong, Manabo, Penarrubia, Pidigan, PilarAbra, Sallapadan, SanIsidroAbra, SanJuanAbra, SanQuintinAbra, Tayum, Tineg, Tubo, Villaviciosa,
+        // Agusan del Norte
+        BuenavistaAgusanDelNorte, CarmenAgusanDelNorte, Jabonga, Kitcharao, LasNieves, MagallanesAgusanDelNorte, Nasipit, RemediosTRomualdez, SantiagoAgusanDelNorte, Tubay,
+        // Agusan del Sur
+        Bunawan, EsperanzaAgusanDelSur, LaPazAgusanDelSur, LoretoAgusanDelSur, Prosperidad, RosarioAgusanDelSur, SanFranciscoAgusanDelSur, SanLuisAgusanDelSur, SantaJosefa, Sibagat, Talacogon, Trento, Veruela,
+        // Aklan
+        Altavas, BaleteAklan, BangaAklan, Batan, Buruanga, Ibajay, Kalibo, Lezo, Libacao, Madalag, Makato, Malay, MalinaoAklan, Nabas, NewWashington, Numancia, Tangalan,
+        // Albay
+        Bacacay, Camalig, Daraga, Guinobatan, Jovellar, Libon, Malilipot, MalinaoAlbay, Manito, Oas, PioDuran, Polangui, RapuRapu, SantoDomingoAlbay, Tiwi,
+        // Antique
+        Aniniy, Barbaza, Belison, Bugasong, Caluya, Culasi, Hamtic, Lauaan, LibertadAntique, PandanAntique, Patnongon, SanJoseAntique, SanRemigioAntique, Sebaste, Sibalom, Tibiao, TobiasFornier, Valderrama,
+        // Apayao
+        Calanasan, Conner, Flora, Kabugao, LunaApayao, Pudtol, SantaMarcela,
+        // Aurora
+        Baler, CasiguranAurora, Dilasag, Dinalungan, Dingalan, Dipaculao, MariaAurora, SanLuisAurora,
+        // Basilan
+        Akbar, AlBarka, HadjiMohammadAjul, HadjiMuhtamad, Lantawan, Maluso, Sumisip, TabuanLasa, TipoTipo, TuburanBasilan, UngkayaPukan,
+        // Bataan
+        Abucay, Bagac, Dinalupihan, Hermosa, Limay, Mariveles, MorongBataan, Orani, Orion, PilarBataan, Samal,
+        // Batanes
+        Basco, Itbayat, Ivana, Mahatao, Sabtang, Uyugan,
+        // Batangas
+        Agoncillo, Alitagtag, Balayan, BaleteBatangas, Bauan, Calaca, Calatagan, Cuenca, Ibaan, Laurel, LemeryBatangas, Lian, Lobo, MabiniBatangas, Malvar, Mataasnakahoy, Nasugbu, PadreGarcia, RosarioBatangas, SanJoseBatangas, SanJuanBatangas, SanLuisBatangas, SanNicolasBatangas, SanPascualBatangas, SantaTeresitaBatangas, SantoTomasBatangas, Taal, TalisayBatangas, Taysan, Tingloy, Tuy,
+        // Benguet
+        Atok, Bakun, Bokod, Buguias, Itogon, Kabayan, Kapangan, Kibungan, LaTrinidad, Mankayan, Sablan, Tuba, Tublay,
+        // Biliran
+        Almeria, Biliran, Cabucgayan, Caibiran, Culaba, Kawayan, Maripipi, Naval,
+        // Bohol
+        Alburquerque, AliciaBohol, AndaBohol, Antequera, Baclayon, Balilihan, BatuanBohol, BienUnido, Bilar, BuenavistaBohol, Calape, Candijay, CarmenBohol, Catigbian, ClarinBohol, Corella, CortesBohol, Dagohoy, Danao, Dauis, Dimiao, Duero, GarciaHernandez, Getafe, Guindulman, Inabanga, Jagna, Lila, Loay, Loboc, Loon, MabiniBohol, Maribojoc, Panglao, PilarBohol, PresidentCarlosPGarcia, Sagbayan, SanIsidroBohol, SanMiguelBohol, Sevilla, SierraBullones, Sikatuna, Talibon, Trinidad, Tubigon, Ubay, ValenciaBohol,
+        // Bukidnon
+        Baungon, Cabanglasan, Damulog, Dangcagan, DonCarlos, Impasugong, Kadingilan, Kalilangan, Kibawe, Kitaotao, Lantapan, Libona, MalitbogBukidnon, ManoloFortich, Maramag, Pangantucan, QuezonBukidnon, SanFernandoBukidnon, Sumilao, Talakag,
+        // Bulacan
+        Angat, Balagtas, Baliuag, Bocaue, Bulakan, Bustos, Calumpit, DonaRemediosTrinidad, Guiguinto, HagonoyBulacan, Marilao, Norzagaray, Obando, Pandi, Paombong, PlaridelBulacan, Pulilan, SanIldefonsoBulacan , SanMiguelBulacan, SanRafaelBulacan, SantaMariaBulacan,
+        // Cagayan
+        Abulug, AlcalaCagayan, Allacapan, Amulung, Aparri, Baggao, Ballesteros, Buguey, Calayan, Camalaniugan, ClaveriaCagayan, Enrile, Gattaran, Gonzaga, Iguig, Lallo, Lasam, PamplonaCagayan, Penablanca, Piat, RizalCagayan, SanchezMira, SantaAnaCagayan, SantaPraxedes, SantaTeresitaCagayan, SantoNinoCagayan, Solana, Tuao,
+        // Camarines Norte
+        Basud, Capalonga, Daet, JosePanganiban, Labo, MercedesCamarinesNorte, Paracale, SanLorenzoRuiz, SanVicenteCamarinesNorte, SantaElena, TalisayCamarinesNorte, Vinzons,
+        // Camarines Sur
+        Baao, Balatan, BatoCamarinesSur, Bombon, Buhi, Bula, Cabusao, Calabanga, Camaligan, Canaman, Caramoan, DelGallego, Gainza, Garchitorena, Goa, Lagonoy, Libmanan, Lupi, Magarao, Milaor, Minalabac, Nabua, Ocampo, PamplonaCamarinesSur, Pasacao, Pili, Presentacion, Ragay, Sagnay, SanFernandoCamarinesSur, SanJoseCamarinesSur, Sipocot, Siruma, Tigaon, Tinambac,
+        // Camiguin
+        CatarmanCamiguin, Guinsiliban, Mahinog, Mambajao, Sagay,
+        // Capiz
+        Cuartero, Dao, Dumalag, Dumarao, Ivisan, Jamindan, Maayon, Mambusao, Panay, Panitan, PilarCapiz, PontevedraCapiz, PresidentRoxasCapiz, Sapian, Sigma, Tapaz,
+        // Catanduanes
+        Bagamanoc, BarasCatanduanes, BatoCatanduanes, Caramoran, Gigmoto, PandanCatanduanes, Panganiban, SanAndresCatanduanes, SanMiguelCatanduanes, Viga, Virac,
+        // Cavite
+        Alfonso, Amadeo, Carmona, GeneralMarianoAlvarez, GeneralEmilioAguinaldo, GeneralTrias, Indang, Kawit, MagallanesCavite, Maragondon, Mendez, Naic, Noveleta, RosarioCavite, Silang, Tanza, Ternate,
+        // Cebu
+        AlcantaraCebu, Alcoy, AlegriaCebu, Aloguinsan, Argao, Asturias, Badian, Balamban, Bantayan, Barili, Boljoon, Borbon, CarmenCebu, Catmon, CompostelaCebu, Consolacion, Cordoba, Daanbantayan, Dalaguete, Dumanjug, Ginatilan, LiloanCebu, Madridejos, Malabuyoc, Medellin, Minglanilla, Moalboal, Oslob, PilarCebu, Pinamungajan, Poro, Ronda, Samboan, SanFernandoCebu, SanFranciscoCebu, SanRemigioCebu, SantaFeCebu, Santander, Sibonga, SogodCebu, Tabogon, Tabuelan, TuburanCebu, TudelaCebu,
+        // Compostela Valley
+        CompostelaCompostelaValley, Laak, MabiniCompostelaValley, Maco, Maragusan, Mawab, Monkayo, Montevista, Nabunturan, NewBataan, Pantukan,
+        // Cotabato
+        Alamada, Aleosan, Antipas, Arakan, Banisilan, CarmenCotabato, Kabacan, Libungan, Mlang, Magpet, Makilala, Matalam, Midsayap, Pigcawayan, Pikit, PresidentRoxasCotabato, Tulunan,
+        // Davao del Norte
+        Asuncion, BraulioEDujali, CarmenDavaoDelNorte, Kapalong, NewCorella, SanIsidroDavaoDelNorte, SantoTomasDavaoDelNorte, Talaingod,
+        // Davao del Sur
+        Bansalan, HagonoyDavaoDelSur, Kiblawan, MagsaysayDavaoDelSur, Malalag, Matanao, Padada, SantaCruzDavaoDelSur, Sulop,
+        // Davao Occidental
+        DonMarcelino, JoseAbadSantos, Malita, SantaMariaDavaoOccidental, Sarangani,
+        // Davao Oriental
+        Baganga, Banaybanay, Boston, Caraga, Cateel, GovernorGeneroso, Lupon, Manay, SanIsidroDavaoOriental, Tarragona,
+        // Dinagat Islands
+        Basilisa, Cagdianao, Dinagat, Libjo, LoretoDinagatIslands, SanJoseDinagatIslands, Tubajon,
+        // Eastern Samar
+        Arteche, Balangiga, Balangkayan, Canavid, DoloresEasternSamar, GeneralMacArthur, Giporlos, Guiuan, Hernani, Jipapad, Lawaan, Llorente, Maslog, Maydolong, MercedesEasternSamar, Oras, Quinapondan, SalcedoEasternSamar, SanJulian, SanPolicarpo, Sulat, Taft,
+        // Guimaras
+        BuenavistaGuimaras, Jordan, NuevaValencia, SanLorenzo, Sibunag,
+        // Ifugao
+        Aguinaldo, AlfonsoLista, Asipulo, Banaue, Hingyon, Hungduan, Kiangan, Lagawe, Lamut, Mayoyao, Tinoc,
+        // Ilocos Norte
+        Adams, Bacarra, Badoc, Bangui, Banna, BurgosIlocosNorte, Carasi, Currimao, Dingras, Dumalneg, Marcos, NuevaEra, Pagudpud, Paoay, Pasuquin, Piddig, Pinili, SanNicolasIlocosNorte, Sarrat, Solsona, Vintar,
+        // Ilocos Sur
+        Alilem, Banayoyo, Bantay, BurgosIlocosSur, Cabugao, Caoayan, Cervantes, Galimuyod, GregorioDelPilar, Lidlidda, Magsingal, Nagbukel, Narvacan, QuirinoIlocosSur, SalcedoIlocosSur, SanEmilio, SanEsteban, SanIldefonsoIlocosSur, SanJuanIlocosSur, SanVicenteIlocosSur, Santa, SantaCatalinaIlocosSur, SantaCruzIlocosSur, SantaLucia, SantaMariaIlocosSur, SantiagoIlocosSur, SantoDomingoIlocosSur, Sigay, Sinait, Sugpon, Suyo, Tagudin,
+        // Iloilo
+        Ajuy, Alimodian, Anilao, Badiangan, Balasan, Banate, BarotacNuevo, BarotacViejo, Batad, Bingawan, CabatuanIloilo, Calinog, Carles, ConcepcionIloilo, Dingle, Duenas, Dumangas, Estancia, Guimbal, Igbaras, Janiuay, Lambunao, Leganes, LemeryIloilo, Leon, Maasin, Miagao, Mina, NewLucena, Oton, Pavia, Pototan, SanDionisio, SanEnriqueIloilo, SanJoaquin, SanMiguelIloilo, SanRafaelIloilo, SantaBarbaraIloilo, Sara, Tigbauan, Tubungan, Zarraga,
+        // Isabela
+        AliciaIsabela, Angadanan, AuroraIsabela, BenitoSoliven, BurgosIsabela, Cabagan, CabatuanIsabela, Cordon, DelfinAlbano, Dinapigue, Divilacan, Echague, Gamu, Jones, LunaIsabela, Maconacon, Mallig, NaguilianIsabela, Palanan, QuezonIsabela, QuirinoIsabela, Ramon, ReinaMercedes, RoxasIsabela, SanAgustinIsabela, SanGuillermo, SanIsidroIsabela, SanManuelIsabela, SanMariano, SanMateoIsabela, SanPabloIsabela, SantaMariaIsabela, SantoTomasIsabela, Tumauini,
+        // Kalinga
+        Balbalan, Lubuagan, Pasil, Pinukpuk, RizalKalinga, Tanudan, Tinglayan,
+        // LaUnion
+        Agoo, Aringay, Bacnotan, Bagulin, Balaoan, Bangar, Bauang, BurgosLaUnion, Caba, Luna, NaguilianLaUnion, Pugo, RosarioLaUnion, SanGabriel, SanJuanLaUnion, SantoTomasLaUnion, Santol, Sudipen, Tubao,
+        // Laguna
+        Alaminos, Bay, Calauan, Cavinti, Famy, KalayaanLaguna, Liliw, LosBanos, Luisiana, Lumban, Mabitac, Magdalena, Majayjay, Nagcarlan, Paete, Pagsanjan, Pakil, Pangil, Pila, RizalLaguna, SantaCruzLaguna, SantaMariaLaguna, Siniloan, VictoriaLaguna,
+        // Lanao del Norte
+        Bacolod, Baloi, Baroy, KapataganLanaoDelNorte, Kauswagan, Kolambugan, Lala, Linamon, MagsaysayLanaoDelNorte, Maigo, Matungao, Munai, Nunungan, PantaoRagat, Pantar, PoonaPiagapo, Salvador, Sapad, SultanNagaDimaporo, TagoloanLanaoDelNorte, Tangcal, TubodLanaoDelNorte,
+        // Lanao del Sur
+        BacolodKalawi, Balabagan, Balindong, Bayang, Binidayan, BuadiposoBuntong, Bubong, Bumbaran, Butig, Calanogas, DitsaanRamain, Ganassi, Kapai, KapataganLanaoDelSur, LumbaBayabao, LumbacaUnayan, Lumbatan, Lumbayanague, Madalum, Madamba, Maguing, Malabang, Marantao, Marogong, Masiu, Mulondo, Pagayawan, Piagapo, PoonaBayabao, Pualas, Saguiaran, SultanDumalondong, Picong, TagoloanII, Tamparan, Taraka, Tubaran, Tugaya, Wao,
+        // Leyte
+        Abuyog, Alangalang, Albuera, Babatngon, Barugo, BatoLeyte, Burauen, Calubian, Capoocan, Carigara, Dagami, Dulag, Hilongos, Hindang, Inopacan, Isabel, Jaro, Javier, Julita, Kananga, LaPazLeyte, Leyte, MacArthur, Mahaplag, Matagob, Matalom, Mayorga, Merida, Palo, Palompon, Pastrana, SanIsidroLeyte, SanMiguelLeyte, SantaFeLeyte, Tabango, Tabontabon, Tanauan, Tolosa, Tunga, Villaba,
+        // Maguindanao
+        Ampatuan, Barira, Buldon, Buluan, DatuAbdullahSangki, DatuAnggalMidtimbang, DatuBlahTSinsuat, DatuHofferAmpatuan, DatuMontawal, DatuOdinSinsuat, DatuPaglas, DatuPiang, DatuSalibo, DatuSaudiAmpatuan, DatuUnsay, GeneralSalipadaKPendatun, Guindulungan, Kabuntalan, Mamasapano, Mangudadatu, Matanog, NorthernKabuntalan, Pagalungan, Paglat, Pandag, ParangMaguindanao, RajahBuayan, ShariffAguak, ShariffSaydonaMustapha, SouthUpi, SultanKudarat, SultanMastura, SultanSaBarongis, SultanSumagka, Talayan, Upi,
+        // Mariduque
+        Boac, BuenavistaMarinduque, Gasan, Mogpog, SantaCruzMarinduque, Torrijos,
+        // Masbate
+        Aroroy, Baleno, Balud, BatuanMasbate, Cataingan, Cawayan, ClaveriaMasbate, Dimasalang, EsperanzaMasbate, Mandaon, Milagros, Mobo, Monreal, Palanas, PioVCorpuz, PlacerMasbate, SanFernandoMasbate, SanJacintoMasbate, SanPascualMasbate, Uson,
+        // Metro Manila (NCR Region)
+        Pateros,
+        // Misamis Occidental
+        Aloran, Baliangao, Bonifacio, Calamba, ClarinMisamisOccidental, ConcepcionMisamisOccidental, DonVictorianoChiongbian, Jimenez, LopezJaena, Panaon, PlaridelMisamisOccidental, SapangDalaga, Sinacaban, TudelaMisamisOccidental,
+        // Misamis Oriental
+        Alubijid, Balingasag, Balingoan, Binuangan, ClaveriaMisamisOriental, Gitagum, Initao, Jasaan, Kinoguitan, Lagonglong, Laguindingan, LibertadMisamisOriental, Lugait, MagsaysayMisamisOriental, Manticao, Medina, Naawan, Opol, Salay, Sugbongcogon, TagoloanMisamisOriental, Talisayan, Villanueva,
+        // Mountain Province
+        Barlig, Bauko, Besao, BontocMountainProvince, Natonin, Paracelis, Sabangan, Sadanga, Sagada, Tadian,
+        // Negros Occidental
+        Binalbagan, CalatravaNegrosOccidental, Candoni, Cauayan, EnriqueBMagalona, Hinigaran, Hinobaan, Ilog, Isabela, LaCastellana, Manapla, MoisesPadilla, Murcia, PontevedraNegrosOccidental, Pulupandan, SalvadorBenedicto, SanEnriqueNegrosOccidental, Toboso, Valladolid,
+        // Negros Oriental
+        Amlan, Ayungon, Bacong, Basay, Bindoy, Dauin, Jimalalud, LaLibertadNegrosOriental, Mabinay, Manjuyod, PamplonaNegrosOriental, SanJoseNegrosOriental, SantaCatalinaNegrosOriental, Siaton, Sibulan, Tayasan, ValenciaNegrosOriental, Vallehermoso, Zamboanguita,
+        // Northern Samar
+        Allen, Biri, Bobon, Capul, CatarmanNorthernSamar, Catubig, Gamay, Laoang, Lapinig, LasNavas, Lavezares, LopeDeVega, Mapanas, Mondragon, Palapag, Pambujan, Rosario, SanAntonioNorthernSamar, SanIsidroNorthernSamar, SanJoseNorthernSamar, SanRoque, SanVicenteNorthernSamar, SilvinoLobos, VictoriaNorthernSamar,
+        // Nueva Ecija
+        Aliaga, Bongabon, Cabiao, Carranglan, Cuyapo, Gabaldon, GeneralMamertoNatividad, GeneralTinio, Guimba, Jaen, Laur, Licab, Llanera, Lupao, Nampicuan, Pantabangan, Penaranda, QuezonNueavaEcija, RizalNuevaEcija, SanAntonioNuevaEcija, SanIsidroNuevaEcija, SanLeonardo, SantaRosa, SantoDomingoNuevaEcija, Talavera, Talugtug, Zaragoza,
+        // Nueva Vizcaya
+        AlfonsoCastaneda, Ambaguio, Aritao, Bagabag, Bambang, Bayombong, Diadi, DupaxDelNorte, DupaxDelSur, Kasibu, Kayapa, QuezonNuevaVizcaya, SantaFeNuevaVizcaya, Solano, Villaverde,
+        // Occidental Mindoro
+        AbraDeIlog, Calintaan, LoocOccidentalMindoro, Lubang, MagsaysayOccidentalMindoro, Mamburao, Paluan, RizalOccidentalMindoro, Sablayan, SanJoseOccidentalMindoro, SantaCruzOccidentalMindoro,
+        // Oriental Mindoro
+        Baco, Bansud, Bongabong, Bulalacao, Gloria, Mansalay, Naujan, Pinamalayan, Pola, PuertoGalera, RoxasOrientalMindoro, SanTeodoro, SocorroOrientalMindoro, VictoriaOrientalMindoro,
+        // Palawan
+        Aborlan, Agutaya, Araceli, Balabac, Bataraza, BrookesPoint, Busuanga, Cagayancillo, Coron, Culion, Cuyo, Dumaran, ElNido, KalayaanPalawan, Linapacan, MagsaysayPalawan, Narra, QuezonPalawan, RizalPalawan, RoxasPalawan, SanVicentePalawan, SofronioEspanola, TaytayPalawan,
+        // Pampanga
+        Apalit, Arayat, Bacolor, Candaba, Floridablanca, Guagua, Lubao, Macabebe, Magalang, Masantol, Mexico, Minalin, Porac, SanLuisPampanga, SanSimon, SantaAnaPampanga, SantaRitaPampanga, SantoTomasPampanga, Sasmuan,
+        // Pangasinan
+        Agno, Aguilar, AlcalaPangasinan, AndaPangasinan, Asingan, Balungao, Bani, Basista, Bautista, Bayambang, Binalonan, Binmaley, Bolinao, Bugallon, BurgosPangasinan, Calasiao, Dasol, InfantaPangasinan, Labrador, Laoac, Lingayen, MabiniPangasinan, Malasiqui, Manaoag, Mangaldan, Mangatarem, Mapandan, Natividad, Pozzorubio, Rosales, SanFabian, SanJacintoPangasinan, SanManuelPangasinan, SanNicolasPangasinan, SanQuintinPangasinan, SantaBarbaraPangasinan, SantaMariaPangasinan, SantoTomasPangasinan, SisonPangasinan, Sual, Tayug, Umingan, Urbiztondo, Villasis,
+        // Quezon
+        Agdangan, Alabat, Atimonan, Buenavista, Burdeos, Calauag, CandelariaQuezon, Catanauan, Dolores, GeneralLunaQuezon, GeneralNakar, Guinayangan, Gumaca, InfantaQuezon, Jomalig, Lopez, Lucban, Macalelon, Mauban, Mulanay, PadreBurgosQuezon, Pagbilao, Panukulan, Patnanungan, Perez, PitogoQuezon, Plaridel, Polillo, Quezon, Real, Sampaloc, SanAndresQuezon, SanAntonioQuezon, SanFranciscoQuezon, SanNarcisoQuezon, Sariaya, Tagkawayan, Tiaong, Unisan,
+        // Quirino
+        Aglipay, Cabarroguis, Diffun, Maddela, Nagtipunan, Saguday,
+        // Rizal
+        Angono, BarasRizal, Binangonan, Cainta, Cardona, Jalajala, MorongRizal, Pililla, Rodriguez, SanMateoRizal, Tanay, TaytayRizal, Teresa,
+        // Romblon
+        AlcantaraRomblon, Banton, Cajidiocan, CalatravaRomblon, ConcepcionRomblon, Corcuera, Ferrol, LoocRomblon, Magdiwang, Odiongan, Romblon, SanAgustinRomblon, SanAndresRomblon, SanFernandoRomblon, SanJoseRomblon, SantaFeRomblon, SantaMariaRomblon,
+        // Samar
+        Almagro, Basey, Calbiga, Daram, Gandara, Hinabangan, Jiabong, Marabut, Matuguinao, Motiong, Pagsanghan, Paranas, Pinabacdao, SanJorge, SanJoseDeBuan, SanSebastian, SantaMargarita, SantaRitaSamar, SantoNinoSamar, Tagapulan, Talalora, Tarangnan, Villareal, Zumarraga,
+        // Sarangani
+        Alabel, Glan, Kiamba, Maasim, Maitum, Malapatan, Malungon,
+        // Siquijor
+        EnriqueVillanueva, Larena, Lazi, Maria, SanJuanSiquijor, Siquijor,
+        // Sorsogon
+        Barcelona, Bulan, Bulusan, CasiguranSorsogon, Castilla, Donsol, Gubat, Irosin, Juban, MagallanesSorsogon, Matnog, PilarSorsogon, PrietoDiaz, SantaMagdalena,
+        // South Cotabato
+        BangaSouthCotabato, LakeSebu, Norala, Polomolok, SantoNinoSouthCotabato, Surallah, Tboli, Tampakan, Tantangan, Tupi,
+        // Southern Leyte
+        Anahawan, BontocSouthernLeyte, Hinunangan, Hinundayan, Libagon, LiloanSouthernLeyte, Limasawa, Macrohon, MalitbogSouthernLeyte, PadreBurgosSouthernLeyte, Pintuyan, SaintBernard, SanFranciscoSouthernLeyte, SanJuanSouthernLeyte, SanRicardo, Silago, SogodSouthernLeyte, TomasOppus,
+        // Sultan Kudarat
+        Bagumbayan, Columbio, Esperanza, Isulan, Kalamansig, Lambayong, Lebak, Lutayan, Palimbang, PresidentQuirino, SenatorNinoyAquino,
+        // Sulu
+        Banguingui, HadjiPanglimaTahil, Indanan, Jolo, KalingalanCaluang, Lugus, Luuk, Maimbung, OldPanamao, Omar, Pandami, PanglimaEstino, Pangutaran, ParangSulu, Pata, Patikul, Siasi, Talipao, Tapul,
+        // Surigao del Norte
+        AlegriaSurigaoDelNorte, Bacuag, Burgos, Claver, Dapa, DelCarmen, GeneralLunaSurigaoDelNorte, Gigaquit, Mainit, Malimono, Pilar, PlacerSurigaoDelNorte, SanBenito, SanFrancisco, SanIsidro, SantaMonica, SisonSurigaoDelNorte, SocorroSurigaoDelNorte, Taganaan, Tubod,
+        // Surigao del Sur
+        Barobo, Bayabas, Cagwait, Cantilan, CarmenSurigaoDelSur, Carrascal, CortesSurigaoDelSur, Hinatuan, Lanuza, Lianga, Lingig, Madrid, Marihatag, SanAgustinSurigaoDelSur, SanMiguelSurigaoDelSur, Tagbina, Tago,
+        // Tarlac
+        Anao, Bamban, Camiling, Capas, ConcepcionTarlac, Gerona, LaPazTarlac, Mayantoc, Moncada, Paniqui, Pura, Ramos, SanClemente, SanJoseTarlac, SanManuelTarlac, SantaIgnacia, VictoriaTarlac,
+        // Tawi-Tawi
+        Bongao, Languyan, Mapun, PanglimaSugala, SapaSapa, Sibutu, Simunul, Sitangkai, SouthUbian, Tandubas, TurtleIslands,
+        // Zambales
+        Botolan, Cabangan, CandelariaZambales, Castillejos, Iba, Masinloc, Palauig, SanAntonioZambales, SanFelipeZambales, SanMarcelinoZambales, SanNarcisoZambales, SantaCruzZambales, Subic,
+        // Zamboanga del Norte
+        Baliguian, Godod, Gutalac, JoseDalman, Kalawit, Katipunan, LaLibertadZamboangaDelNorte, Labason, LeonBPostigo, Liloy, Manukan, Mutia, Pinan, Polanco, PresidentManuelARoxas, RizalZamboangaDelNorte, Salug, SergioOsmenaSr, Siayan, Sibuco, Sibutad, Sindangan, Siocon, Sirawai, Tampilisan,
+        // Zamboanga del Sur
+        AuroraZamboangaDelSur, Bayog, Dimataling, Dinas, Dumalinao, Dumingag, Guipos, Josefina, Kumalarang, Labangan, Lakewood, Lapuyan, Mahayag, Margosatubig, Midsalip, Molave, PitogoZamboangaDelSur, RamonMagsaysay, SanMiguelZamboangaDelSur, SanPabloZamboangaDelSur, Sominot, Tabina, Tambulig, Tigbao, Tukuran, VincenzoASagun,
+        // Zamboanga Sibugay
+        AliciaZamboangaSibugay, Buug, Diplahan, Imelda, Ipil, Kabasalan, Mabuhay, Malangas, NagaZamboangaSibugay, Olutanga, Payao, RosellerLim, Siay, Talusan, Titay, Tungawan]
+    
     public func province() -> PhProvince! {
         switch self {
         case .Bangued, .Boliney, .Bucay, .Bucloc, .Daguioman, .Danglas, .DoloresAbra, .LaPazAbra, .Lacub, .Lagangilang, .Lagayan, .Langiden, .LicuanBaay, .Luba, .Malibcong, .Manabo, .Penarrubia, .Pidigan, .PilarAbra, .Sallapadan, .SanIsidroAbra, .SanJuanAbra, .SanQuintinAbra, .Tayum, .Tineg, .Tubo, .Villaviciosa:
@@ -1758,6 +1924,10 @@ public enum PhMunicipality : String {
         } else {
             return PhRegion.NCR
         }
+    }
+    
+    public func name() -> String {
+        return self.rawValue
     }
     
 }
