@@ -236,7 +236,7 @@ public enum PhMunicipality : String {
     case Catigbian
     case ClarinBohol = "Clarin, Bohol"
     case Corella
-    case Cortes
+    case CortesBohol = "Cortes, Bohol"
     case Dagohoy
     case Danao
     case Dauis
@@ -444,7 +444,7 @@ public enum PhMunicipality : String {
     // Cebu
     case AlcantaraCebu = "Alcantara, Cebu"
     case Alcoy
-    case Alegria
+    case AlegriaCebu = "Alegria, Cebu"
     case Aloguinsan
     case Argao
     case Asturias
@@ -519,7 +519,7 @@ public enum PhMunicipality : String {
     // Davao del Norte
     case Asuncion
     case BraulioEDujali = "Braulio E. Dujali"
-    case Carmen
+    case CarmenDavaoDelNorte = "Carmen, Davao del Norte"
     case Kapalong
     case NewCorella = "New Corella"
     case SanIsidroDavaoDelNorte = "San Isidro, Davao del Norte"
@@ -702,7 +702,7 @@ public enum PhMunicipality : String {
     // Isabela
     case AliciaIsabela = "Alicia, Isabela"
     case Angadanan
-    case Aurora
+    case AuroraIsabela = "Aurora, Isabela"
     case BenitoSoliven = "Benito Soliven"
     case BurgosIsabela = "Burgos, Isabela"
     case Cabagan
@@ -730,7 +730,7 @@ public enum PhMunicipality : String {
     case SanManuelIsabela = "San Manuel, Isabela"
     case SanMariano = "San Mariano"
     case SanMateoIsabela = "San Mateo, Isabela"
-    case SanPablo = "San Pablo"
+    case SanPabloIsabela = "San Pablo, Isabela"
     case SantaMariaIsabela = "Santa Maria, Isabela"
     case SantoTomasIsabela = "Santo Tomas, Isabela"
     case Tumauini
@@ -809,7 +809,7 @@ public enum PhMunicipality : String {
     case SultanNagaDimaporo = "Sultan Naga Dimaporo"
     case TagoloanLanaoDelNorte = "Tagoloan, Lanao del Norte"
     case Tangcal
-    case Tubod
+    case TubodLanaoDelNorte = "Tubod, Lanao del Norte"
     // Lanao del Sur
     case BacolodKalawi = "Bacolod-Kalawi"
     case Balabagan
@@ -917,7 +917,7 @@ public enum PhMunicipality : String {
     case Pagalungan
     case Paglat
     case Pandag
-    case Parang
+    case ParangMaguindanao = "Parang, Maguindanao"
     case RajahBuayan = "Rajah Buayan"
     case ShariffAguak = "Shariff Aguak"
     case ShariffSaydonaMustapha = "Shariff Saydona Mustapha"
@@ -951,7 +951,7 @@ public enum PhMunicipality : String {
     case Monreal
     case Palanas
     case PioVCorpuz = "Pio V. Corpuz"
-    case Placer
+    case PlacerMasbate = "Placer, Masbate"
     case SanFernandoMasbate = "San Fernando, Masbate"
     case SanJacintoMasbate = "San Jacinto, Masbate"
     case SanPascualMasbate = "San Pascual, Masbate"
@@ -1036,7 +1036,7 @@ public enum PhMunicipality : String {
     case Bindoy
     case Dauin
     case Jimalalud
-    case LaLibertad = "La Libertad"
+    case LaLibertadNegrosOriental = "La Libertad, Negros Oriental"
     case Mabinay
     case Manjuyod
     case PamplonaNegrosOriental = "Pamplona, Negros Oriental"
@@ -1142,7 +1142,7 @@ public enum PhMunicipality : String {
     case PuertoGalera = "Puerto Galera"
     case RoxasOrientalMindoro = "Roxas, Oriental Mindoro"
     case SanTeodoro = "San Teodoro"
-    case Socorro
+    case SocorroOrientalMindoro = "Socorro, Oriental Mindoro"
     case VictoriaOrientalMindoro = "Victoria, Oriental Mindoro"
     // Palawan
     case Aborlan
@@ -1227,7 +1227,7 @@ public enum PhMunicipality : String {
     case SantaBarbaraPangasinan = "Santa Barbara, Pangasinan"
     case SantaMariaPangasinan = "Santa Maria, Pangasinan"
     case SantoTomasPangasinan = "Santo Tomas, Pangasinan"
-    case Sison
+    case SisonPangasinan = "Sison, Pangasinan"
     case Sual
     case Tayug
     case Umingan
@@ -1240,10 +1240,10 @@ public enum PhMunicipality : String {
     case Buenavista
     case Burdeos
     case Calauag
-    case Candelaria
+    case CandelariaQuezon = "Candelaria, Quezon"
     case Catanauan
     case Dolores
-    case GeneralLuna = "General Luna"
+    case GeneralLunaQuezon = "General Luna, Quezon"
     case GeneralNakar = "General Nakar"
     case Guinayangan
     case Gumaca
@@ -1259,7 +1259,7 @@ public enum PhMunicipality : String {
     case Panukulan
     case Patnanungan
     case Perez
-    case Pitogo
+    case PitogoQuezon = "Pitogo, Quezon"
     case Plaridel
     case Polillo
     case Quezon = "Quezon, Quezon"
@@ -1409,6 +1409,179 @@ public enum PhMunicipality : String {
     case Palimbang
     case PresidentQuirino = "President Quirino"
     case SenatorNinoyAquino = "Senator Ninoy Aquino"
+    // Sulu
+    case Banguingui
+    case HadjiPanglimaTahil = "Hadji Panglima Tahil"
+    case Indanan
+    case Jolo
+    case KalingalanCaluang = "Kalingalan Caluang"
+    case Lugus
+    case Luuk
+    case Maimbung
+    case OldPanamao = "Old Panamao"
+    case Omar
+    case Pandami
+    case PanglimaEstino = "Panglima Estino"
+    case Pangutaran
+    case ParangSulu = "Parang, Sulu"
+    case Pata
+    case Patikul
+    case Siasi
+    case Talipao
+    case Tapul
+    // Surigao del Norte
+    case AlegriaSurigaoDelNorte = "Alegria, Surigao del Norte"
+    case Bacuag
+    case Burgos
+    case Claver
+    case Dapa
+    case DelCarmen = "Del Carmen"
+    case GeneralLunaSurigaoDelNorte = "General Luna, Surigao del Norte"
+    case Gigaquit
+    case Mainit
+    case Malimono
+    case Pilar
+    case PlacerSurigaoDelNorte = "Placer, Surigao del Norte"
+    case SanBenito = "San Benito"
+    case SanFrancisco = "San Francisco"
+    case SanIsidro = "San Isidro"
+    case SantaMonica = "Santa Monica"
+    case SisonSurigaoDelNorte = "Sison, Surigao del Norte"
+    case SocorroSurigaoDelNorte = "Socorro, Surigao del Norte"
+    case Taganaan = "Tagana-an"
+    case Tubod = "Tubod, Surigao del Norte"
+    // Surigao del Sur
+    case Barobo
+    case Bayabas
+    case Cagwait
+    case Cantilan
+    case CarmenSurigaoDelSur = "Carmen, Surigao del Sur"
+    case Carrascal
+    case CortesSurigaoDelSur = "Cortes, Surigao del Sur"
+    case Hinatuan
+    case Lanuza
+    case Lianga
+    case Lingig
+    case Madrid
+    case Marihatag
+    case SanAgustinSurigaoDelSur = "San Agustin, Surigao del Sur"
+    case SanMiguelSurigaoDelSur = "San Miguel, Surigao del Sur"
+    case Tagbina
+    case Tago
+    // Tarlac
+    case Anao
+    case Bamban
+    case Camiling
+    case Capas
+    case ConcepcionTarlac = "Concepcion, Tarlac"
+    case Gerona
+    case LaPazTarlac = "La Paz, Tarlac"
+    case Mayantoc
+    case Moncada
+    case Paniqui
+    case Pura
+    case Ramos
+    case SanClemente = "San Clemente"
+    case SanJoseTarlac = "San Jose, Tarlac"
+    case SanManuelTarlac = "San Manuel, Tarlac"
+    case SantaIgnacia = "Santa Ignacia"
+    case VictoriaTarlac = "Victoria, Tarlac"
+    // Tawi-Tawi
+    case Bongao
+    case Languyan
+    case Mapun
+    case PanglimaSugala = "Panglima Sugala"
+    case SapaSapa = "Sapa-Sapa"
+    case Sibutu
+    case Simunul
+    case Sitangkai
+    case SouthUbian = "South Ubian"
+    case Tandubas
+    case TurtleIslands = "Turtle Islands"
+    // Zambales
+    case Botolan
+    case Cabangan
+    case CandelariaZambales = "Candelaria, Zambales"
+    case Castillejos
+    case Iba
+    case Masinloc
+    case Palauig
+    case SanAntonioZambales = "San Antonio, Zambales"
+    case SanFelipeZambales = "San Felipe, Zambales"
+    case SanMarcelinoZambales = "San Marcelino, Zambales"
+    case SanNarcisoZambales = "San Narciso, Zambales"
+    case SantaCruzZambales = "Santa Cruz, Zambales"
+    case Subic
+    // Zamboanga del Norte
+    case Baliguian
+    case Godod
+    case Gutalac
+    case JoseDalman = "Jose Dalman"
+    case Kalawit
+    case Katipunan
+    case LaLibertadZamboangaDelNorte = "La Libertad, Zamboanga del Norte"
+    case Labason
+    case LeonBPostigo = "Leon B. Postigo"
+    case Liloy
+    case Manukan
+    case Mutia
+    case Pinan = "Piñan"
+    case Polanco
+    case PresidentManuelARoxas = "President Manuel A. Roxas"
+    case RizalZamboangaDelNorte = "Rizal, Zamboanga del Norte"
+    case Salug
+    case SergioOsmenaSr = "Sergio Osmeña Sr."
+    case Siayan
+    case Sibuco
+    case Sibutad
+    case Sindangan
+    case Siocon
+    case Sirawai
+    case Tampilisan
+    // Zamboanga del Sur
+    case AuroraZamboangaDelSur = "Aurora, Zamboanga del Sur"
+    case Bayog
+    case Dimataling
+    case Dinas
+    case Dumalinao
+    case Dumingag
+    case Guipos
+    case Josefina
+    case Kumalarang
+    case Labangan
+    case Lakewood
+    case Lapuyan
+    case Mahayag
+    case Margosatubig
+    case Midsalip
+    case Molave
+    case PitogoZamboangaDelSur = "Pitogo, Zamboanga del Sur"
+    case RamonMagsaysay = "Ramon Magsaysay"
+    case SanMiguelZamboangaDelSur = "San Miguel, Zamboanga del Sur"
+    case SanPabloZamboangaDelSur = "San Pablo, Zamboanga del Sur"
+    case Sominot
+    case Tabina
+    case Tambulig
+    case Tigbao
+    case Tukuran
+    case VincenzoASagun = "Vincenzo A. Sagun"
+    // Zamboanga Sibugay
+    case AliciaZamboangaSibugay = "Alicia, Zamboanga Sibugay"
+    case Buug
+    case Diplahan
+    case Imelda
+    case Ipil
+    case Kabasalan
+    case Mabuhay
+    case Malangas
+    case NagaZamboangaSibugay = "Naga, Zamboanga Sibugay"
+    case Olutanga
+    case Payao
+    case RosellerLim = "Roseller Lim"
+    case Siay
+    case Talusan
+    case Titay
+    case Tungawan
     
     public func province() -> PhProvince! {
         switch self {
@@ -1440,7 +1613,7 @@ public enum PhMunicipality : String {
             return PhProvince.Benguet
         case .Almeria, .Biliran, .Cabucgayan, .Caibiran, .Culaba, .Kawayan, .Maripipi, .Naval:
             return PhProvince.Biliran
-        case .Alburquerque, .AliciaBohol, .AndaBohol, .Antequera, .Baclayon, .Balilihan, .BatuanBohol, .BienUnido, .Bilar, .BuenavistaBohol, .Calape, .Candijay, .CarmenBohol, .Catigbian, .ClarinBohol, .Corella, .Cortes, .Dagohoy, .Danao, .Dauis, .Dimiao, .Duero, .GarciaHernandez, .Getafe, .Guindulman, .Inabanga, .Jagna, .Lila, .Loay, .Loboc, .Loon, .MabiniBohol, .Maribojoc, .Panglao, .PilarBohol, .PresidentCarlosPGarcia, .Sagbayan, .SanIsidroBohol, .SanMiguelBohol, .Sevilla, .SierraBullones, .Sikatuna, .Talibon, .Trinidad, .Tubigon, .Ubay, .ValenciaBohol:
+        case .Alburquerque, .AliciaBohol, .AndaBohol, .Antequera, .Baclayon, .Balilihan, .BatuanBohol, .BienUnido, .Bilar, .BuenavistaBohol, .Calape, .Candijay, .CarmenBohol, .Catigbian, .ClarinBohol, .Corella, .CortesBohol, .Dagohoy, .Danao, .Dauis, .Dimiao, .Duero, .GarciaHernandez, .Getafe, .Guindulman, .Inabanga, .Jagna, .Lila, .Loay, .Loboc, .Loon, .MabiniBohol, .Maribojoc, .Panglao, .PilarBohol, .PresidentCarlosPGarcia, .Sagbayan, .SanIsidroBohol, .SanMiguelBohol, .Sevilla, .SierraBullones, .Sikatuna, .Talibon, .Trinidad, .Tubigon, .Ubay, .ValenciaBohol:
             return PhProvince.Bohol
         case .Baungon, .Cabanglasan, .Damulog, .Dangcagan, .DonCarlos, .Impasugong, .Kadingilan, .Kalilangan, .Kibawe, .Kitaotao, .Lantapan, .Libona, .MalitbogBukidnon, .ManoloFortich, .Maramag, .Pangantucan, .QuezonBukidnon, .SanFernandoBukidnon, .Sumilao, .Talakag:
             return PhProvince.Bukidnon
@@ -1460,13 +1633,13 @@ public enum PhMunicipality : String {
             return PhProvince.Catanduanes
         case .Alfonso, .Amadeo, .Carmona, .GeneralMarianoAlvarez, .GeneralEmilioAguinaldo, .GeneralTrias, .Indang, .Kawit, .MagallanesCavite, .Maragondon, .Mendez, .Naic, .Noveleta, .RosarioCavite, .Silang, .Tanza, .Ternate:
             return PhProvince.Cavite
-        case .AlcantaraCebu, .Alcoy, .Alegria, .Aloguinsan, .Argao, .Asturias, .Badian, .Balamban, .Bantayan, .Barili, .Boljoon, .Borbon, .CarmenCebu, .Catmon, .CompostelaCebu, .Consolacion, .Cordoba, .Daanbantayan, .Dalaguete, .Dumanjug, .Ginatilan, .LiloanCebu, .Madridejos, .Malabuyoc, .Medellin, .Minglanilla, .Moalboal, .Oslob, .PilarCebu, .Pinamungajan, .Poro, .Ronda, .Samboan, .SanFernandoCebu, .SanFranciscoCebu, .SanRemigioCebu, .SantaFeCebu, .Santander, .Sibonga, .SogodCebu, .Tabogon, .Tabuelan, .TuburanCebu, .TudelaCebu:
+        case .AlcantaraCebu, .Alcoy, .AlegriaCebu, .Aloguinsan, .Argao, .Asturias, .Badian, .Balamban, .Bantayan, .Barili, .Boljoon, .Borbon, .CarmenCebu, .Catmon, .CompostelaCebu, .Consolacion, .Cordoba, .Daanbantayan, .Dalaguete, .Dumanjug, .Ginatilan, .LiloanCebu, .Madridejos, .Malabuyoc, .Medellin, .Minglanilla, .Moalboal, .Oslob, .PilarCebu, .Pinamungajan, .Poro, .Ronda, .Samboan, .SanFernandoCebu, .SanFranciscoCebu, .SanRemigioCebu, .SantaFeCebu, .Santander, .Sibonga, .SogodCebu, .Tabogon, .Tabuelan, .TuburanCebu, .TudelaCebu:
             return PhProvince.Cebu
         case .CompostelaCompostelaValley, .Laak, .MabiniCompostelaValley, .Maco, .Maragusan, .Mawab, .Monkayo, .Montevista, .Nabunturan, .NewBataan, .Pantukan:
             return PhProvince.CompostelaValley
         case .Alamada, .Aleosan, .Antipas, .Arakan, .Banisilan, .CarmenCotabato, .Kabacan, .Libungan, .Mlang, .Magpet, .Makilala, .Matalam, .Midsayap, .Pigcawayan, .Pikit, .PresidentRoxasCotabato, .Tulunan:
             return PhProvince.Cotabato
-        case .Asuncion, .BraulioEDujali, .Carmen, .Kapalong, .NewCorella, .SanIsidroDavaoDelNorte, .SantoTomasDavaoDelNorte, .Talaingod:
+        case .Asuncion, .BraulioEDujali, .CarmenDavaoDelNorte, .Kapalong, .NewCorella, .SanIsidroDavaoDelNorte, .SantoTomasDavaoDelNorte, .Talaingod:
             return PhProvince.DavaoDelNorte
         case .Bansalan, .HagonoyDavaoDelSur, .Kiblawan, .MagsaysayDavaoDelSur, .Malalag, .Matanao, .Padada, .SantaCruzDavaoDelSur, .Sulop:
             return PhProvince.DavaoDelSur
@@ -1488,7 +1661,7 @@ public enum PhMunicipality : String {
             return PhProvince.IlocosSur
         case .Ajuy, .Alimodian, .Anilao, .Badiangan, .Balasan, .Banate, .BarotacNuevo, .BarotacViejo, .Batad, .Bingawan, .CabatuanIloilo, .Calinog, .Carles, .ConcepcionIloilo, .Dingle, .Duenas, .Dumangas, .Estancia, .Guimbal, .Igbaras, .Janiuay, .Lambunao, .Leganes, .LemeryIloilo, .Leon, .Maasin, .Miagao, .Mina, .NewLucena, .Oton, .Pavia, .Pototan, .SanDionisio, .SanEnriqueIloilo, .SanJoaquin, .SanMiguelIloilo, .SanRafaelIloilo, .SantaBarbaraIloilo, .Sara, .Tigbauan, .Tubungan, .Zarraga:
             return PhProvince.Iloilo
-        case .AliciaIsabela, .Angadanan, .Aurora, .BenitoSoliven, .BurgosIsabela, .Cabagan, .CabatuanIsabela, .Cordon, .DelfinAlbano, .Dinapigue, .Divilacan, .Echague, .Gamu, .Jones, .LunaIsabela, .Maconacon, .Mallig, .NaguilianIsabela, .Palanan, .QuezonIsabela, .QuirinoIsabela, .Ramon, .ReinaMercedes, .RoxasIsabela, .SanAgustinIsabela, .SanGuillermo, .SanIsidroIsabela, .SanManuelIsabela, .SanMariano, .SanMateoIsabela, .SanPablo, .SantaMariaIsabela, .SantoTomasIsabela, .Tumauini:
+        case .AliciaIsabela, .Angadanan, .AuroraIsabela, .BenitoSoliven, .BurgosIsabela, .Cabagan, .CabatuanIsabela, .Cordon, .DelfinAlbano, .Dinapigue, .Divilacan, .Echague, .Gamu, .Jones, .LunaIsabela, .Maconacon, .Mallig, .NaguilianIsabela, .Palanan, .QuezonIsabela, .QuirinoIsabela, .Ramon, .ReinaMercedes, .RoxasIsabela, .SanAgustinIsabela, .SanGuillermo, .SanIsidroIsabela, .SanManuelIsabela, .SanMariano, .SanMateoIsabela, .SanPabloIsabela, .SantaMariaIsabela, .SantoTomasIsabela, .Tumauini:
             return PhProvince.Isabela
         case .Balbalan, .Lubuagan, .Pasil, .Pinukpuk, .RizalKalinga, .Tanudan, .Tinglayan:
             return PhProvince.Kalinga
@@ -1496,17 +1669,17 @@ public enum PhMunicipality : String {
             return PhProvince.LaUnion
         case .Alaminos, .Bay, .Calauan, .Cavinti, .Famy, .KalayaanLaguna, .Liliw, .LosBanos, .Luisiana, .Lumban, .Mabitac, .Magdalena, .Majayjay, .Nagcarlan, .Paete, .Pagsanjan, .Pakil, .Pangil, .Pila, .RizalLaguna, .SantaCruzLaguna, .SantaMariaLaguna, .Siniloan, .VictoriaLaguna:
             return PhProvince.Laguna
-        case .Bacolod, .Baloi, .Baroy, .KapataganLanaoDelNorte, .Kauswagan, .Kolambugan, .Lala, .Linamon, .MagsaysayLanaoDelNorte, .Maigo, .Matungao, .Munai, .Nunungan, .PantaoRagat, .Pantar, .PoonaPiagapo, .Salvador, .Sapad, .SultanNagaDimaporo, .TagoloanLanaoDelNorte, .Tangcal, .Tubod:
+        case .Bacolod, .Baloi, .Baroy, .KapataganLanaoDelNorte, .Kauswagan, .Kolambugan, .Lala, .Linamon, .MagsaysayLanaoDelNorte, .Maigo, .Matungao, .Munai, .Nunungan, .PantaoRagat, .Pantar, .PoonaPiagapo, .Salvador, .Sapad, .SultanNagaDimaporo, .TagoloanLanaoDelNorte, .Tangcal, .TubodLanaoDelNorte:
             return PhProvince.LanaoDelNorte
         case .BacolodKalawi, .Balabagan, .Balindong, .Bayang, .Binidayan, .BuadiposoBuntong, .Bubong, .Bumbaran, .Butig, .Calanogas, .DitsaanRamain, .Ganassi, .Kapai, .KapataganLanaoDelSur, .LumbaBayabao, .LumbacaUnayan, .Lumbatan, .Lumbayanague, .Madalum, .Madamba, .Maguing, .Malabang, .Marantao, .Marogong, .Masiu, .Mulondo, .Pagayawan, .Piagapo, .PoonaBayabao, .Pualas, .Saguiaran, .SultanDumalondong, .Picong, .TagoloanII, .Tamparan, .Taraka, .Tubaran, .Tugaya, .Wao:
             return PhProvince.LanaoDelSur
         case .Abuyog, .Alangalang, .Albuera, .Babatngon, .Barugo, .BatoLeyte, .Burauen, .Calubian, .Capoocan, .Carigara, .Dagami, .Dulag, .Hilongos, .Hindang, .Inopacan, .Isabel, .Jaro, .Javier, .Julita, .Kananga, .LaPazLeyte, .Leyte, .MacArthur, .Mahaplag, .Matagob, .Matalom, .Mayorga, .Merida, .Palo, .Palompon, .Pastrana, .SanIsidroLeyte, .SanMiguelLeyte, .SantaFeLeyte, .Tabango, .Tabontabon, .Tanauan, .Tolosa, .Tunga, .Villaba:
             return PhProvince.Leyte
-        case .Ampatuan, .Barira, .Buldon, .Buluan, .DatuAbdullahSangki, .DatuAnggalMidtimbang, .DatuBlahTSinsuat, .DatuHofferAmpatuan, .DatuMontawal, .DatuOdinSinsuat, .DatuPaglas, .DatuPiang, .DatuSalibo, .DatuSaudiAmpatuan, .DatuUnsay, .GeneralSalipadaKPendatun, .Guindulungan, .Kabuntalan, .Mamasapano, .Mangudadatu, .Matanog, .NorthernKabuntalan, .Pagalungan, .Paglat, .Pandag, .Parang, .RajahBuayan, .ShariffAguak, .ShariffSaydonaMustapha, .SouthUpi, .SultanKudarat, .SultanMastura, .SultanSaBarongis, .SultanSumagka, .Talayan, .Upi:
+        case .Ampatuan, .Barira, .Buldon, .Buluan, .DatuAbdullahSangki, .DatuAnggalMidtimbang, .DatuBlahTSinsuat, .DatuHofferAmpatuan, .DatuMontawal, .DatuOdinSinsuat, .DatuPaglas, .DatuPiang, .DatuSalibo, .DatuSaudiAmpatuan, .DatuUnsay, .GeneralSalipadaKPendatun, .Guindulungan, .Kabuntalan, .Mamasapano, .Mangudadatu, .Matanog, .NorthernKabuntalan, .Pagalungan, .Paglat, .Pandag, .ParangMaguindanao, .RajahBuayan, .ShariffAguak, .ShariffSaydonaMustapha, .SouthUpi, .SultanKudarat, .SultanMastura, .SultanSaBarongis, .SultanSumagka, .Talayan, .Upi:
             return PhProvince.Maguindanao
         case .Boac, .BuenavistaMarinduque, .Gasan, .Mogpog, .SantaCruzMarinduque, .Torrijos:
             return PhProvince.Marinduque
-        case .Aroroy, .Baleno, .Balud, .BatuanMasbate, .Cataingan, .Cawayan, .ClaveriaMasbate, .Dimasalang, .EsperanzaMasbate, .Mandaon, .Milagros, .Mobo, .Monreal, .Palanas, .PioVCorpuz, .Placer, .SanFernandoMasbate, .SanJacintoMasbate, .SanPascualMasbate, .Uson:
+        case .Aroroy, .Baleno, .Balud, .BatuanMasbate, .Cataingan, .Cawayan, .ClaveriaMasbate, .Dimasalang, .EsperanzaMasbate, .Mandaon, .Milagros, .Mobo, .Monreal, .Palanas, .PioVCorpuz, .PlacerMasbate, .SanFernandoMasbate, .SanJacintoMasbate, .SanPascualMasbate, .Uson:
             return PhProvince.Masbate
         case .Pateros:
             return nil
@@ -1518,7 +1691,7 @@ public enum PhMunicipality : String {
             return PhProvince.MountainProvince
         case .Binalbagan, .CalatravaNegrosOccidental, .Candoni, .Cauayan, .EnriqueBMagalona, .Hinigaran, .Hinobaan, .Ilog, .Isabela, .LaCastellana, .Manapla, .MoisesPadilla, .Murcia, .PontevedraNegrosOccidental, .Pulupandan, .SalvadorBenedicto, .SanEnriqueNegrosOccidental, .Toboso, .Valladolid:
             return PhProvince.NegrosOccidental
-        case .Amlan, .Ayungon, .Bacong, .Basay, .Bindoy, .Dauin, .Jimalalud, .LaLibertad, .Mabinay, .Manjuyod, .PamplonaNegrosOriental, .SanJoseNegrosOriental, .SantaCatalinaNegrosOriental, .Siaton, .Sibulan, .Tayasan, .ValenciaNegrosOriental, .Vallehermoso, .Zamboanguita:
+        case .Amlan, .Ayungon, .Bacong, .Basay, .Bindoy, .Dauin, .Jimalalud, .LaLibertadNegrosOriental, .Mabinay, .Manjuyod, .PamplonaNegrosOriental, .SanJoseNegrosOriental, .SantaCatalinaNegrosOriental, .Siaton, .Sibulan, .Tayasan, .ValenciaNegrosOriental, .Vallehermoso, .Zamboanguita:
             return PhProvince.NegrosOriental
         case .Allen, .Biri, .Bobon, .Capul, .CatarmanNorthernSamar, .Catubig, .Gamay, .Laoang, .Lapinig, .LasNavas, .Lavezares, .LopeDeVega, .Mapanas, .Mondragon, .Palapag, .Pambujan, .Rosario, .SanAntonioNorthernSamar, .SanIsidroNorthernSamar, .SanJoseNorthernSamar, .SanRoque, .SanVicenteNorthernSamar, .SilvinoLobos, .VictoriaNorthernSamar:
             return PhProvince.NorthernSamar
@@ -1528,15 +1701,15 @@ public enum PhMunicipality : String {
             return PhProvince.NuevaVizcaya
         case .AbraDeIlog, .Calintaan, .LoocOccidentalMindoro, .Lubang, .MagsaysayOccidentalMindoro, .Mamburao, .Paluan, .RizalOccidentalMindoro, .Sablayan, .SanJoseOccidentalMindoro, .SantaCruzOccidentalMindoro:
             return PhProvince.OccidentalMindoro
-        case .Baco, .Bansud, .Bongabong, .Bulalacao, .Gloria, .Mansalay, .Naujan, .Pinamalayan, .Pola, .PuertoGalera, .RoxasOrientalMindoro, .SanTeodoro, .Socorro, .VictoriaOrientalMindoro:
+        case .Baco, .Bansud, .Bongabong, .Bulalacao, .Gloria, .Mansalay, .Naujan, .Pinamalayan, .Pola, .PuertoGalera, .RoxasOrientalMindoro, .SanTeodoro, .SocorroOrientalMindoro, .VictoriaOrientalMindoro:
             return PhProvince.OrientalMindoro
         case .Aborlan, .Agutaya, .Araceli, .Balabac, .Bataraza, .BrookesPoint, .Busuanga, .Cagayancillo, .Coron, .Culion, .Cuyo, .Dumaran, .ElNido, .KalayaanPalawan, .Linapacan, .MagsaysayPalawan, .Narra, .QuezonPalawan, .RizalPalawan, .RoxasPalawan, .SanVicentePalawan, .SofronioEspanola, .TaytayPalawan:
             return PhProvince.Palawan
         case .Apalit, .Arayat, .Bacolor, .Candaba, .Floridablanca, .Guagua, .Lubao, .Macabebe, .Magalang, .Masantol, .Mexico, .Minalin, .Porac, .SanLuisPampanga, .SanSimon, .SantaAnaPampanga, .SantaRitaPampanga, .SantoTomasPampanga, .Sasmuan:
             return PhProvince.Pampanga
-        case .Agno, .Aguilar, .AlcalaPangasinan, .AndaPangasinan, .Asingan, .Balungao, .Bani, .Basista, .Bautista, .Bayambang, .Binalonan, .Binmaley, .Bolinao, .Bugallon, .BurgosPangasinan, .Calasiao, .Dasol, .InfantaPangasinan, .Labrador, .Laoac, .Lingayen, .MabiniPangasinan, .Malasiqui, .Manaoag, .Mangaldan, .Mangatarem, .Mapandan, .Natividad, .Pozzorubio, .Rosales, .SanFabian, .SanJacintoPangasinan, .SanManuelPangasinan, .SanNicolasPangasinan, .SanQuintinPangasinan, .SantaBarbaraPangasinan, .SantaMariaPangasinan, .SantoTomasPangasinan, .Sison, .Sual, .Tayug, .Umingan, .Urbiztondo, .Villasis:
+        case .Agno, .Aguilar, .AlcalaPangasinan, .AndaPangasinan, .Asingan, .Balungao, .Bani, .Basista, .Bautista, .Bayambang, .Binalonan, .Binmaley, .Bolinao, .Bugallon, .BurgosPangasinan, .Calasiao, .Dasol, .InfantaPangasinan, .Labrador, .Laoac, .Lingayen, .MabiniPangasinan, .Malasiqui, .Manaoag, .Mangaldan, .Mangatarem, .Mapandan, .Natividad, .Pozzorubio, .Rosales, .SanFabian, .SanJacintoPangasinan, .SanManuelPangasinan, .SanNicolasPangasinan, .SanQuintinPangasinan, .SantaBarbaraPangasinan, .SantaMariaPangasinan, .SantoTomasPangasinan, .SisonPangasinan, .Sual, .Tayug, .Umingan, .Urbiztondo, .Villasis:
             return PhProvince.Pangasinan
-        case .Agdangan, .Alabat, .Atimonan, .Buenavista, .Burdeos, .Calauag, .Candelaria, .Catanauan, .Dolores, .GeneralLuna, .GeneralNakar, .Guinayangan, .Gumaca, .InfantaQuezon, .Jomalig, .Lopez, .Lucban, .Macalelon, .Mauban, .Mulanay, .PadreBurgosQuezon, .Pagbilao, .Panukulan, .Patnanungan, .Perez, .Pitogo, .Plaridel, .Polillo, .Quezon, .Real, .Sampaloc, .SanAndresQuezon, .SanAntonioQuezon, .SanFranciscoQuezon, .SanNarcisoQuezon, .Sariaya, .Tagkawayan, .Tiaong, .Unisan:
+        case .Agdangan, .Alabat, .Atimonan, .Buenavista, .Burdeos, .Calauag, .CandelariaQuezon, .Catanauan, .Dolores, .GeneralLunaQuezon, .GeneralNakar, .Guinayangan, .Gumaca, .InfantaQuezon, .Jomalig, .Lopez, .Lucban, .Macalelon, .Mauban, .Mulanay, .PadreBurgosQuezon, .Pagbilao, .Panukulan, .Patnanungan, .Perez, .PitogoQuezon, .Plaridel, .Polillo, .Quezon, .Real, .Sampaloc, .SanAndresQuezon, .SanAntonioQuezon, .SanFranciscoQuezon, .SanNarcisoQuezon, .Sariaya, .Tagkawayan, .Tiaong, .Unisan:
             return PhProvince.Quezon
         case .Aglipay, .Cabarroguis, .Diffun, .Maddela, .Nagtipunan, .Saguday:
             return PhProvince.Quirino
@@ -1556,6 +1729,26 @@ public enum PhMunicipality : String {
             return PhProvince.SouthCotabato
         case .Anahawan, .BontocSouthernLeyte, .Hinunangan, .Hinundayan, .Libagon, .LiloanSouthernLeyte, .Limasawa, .Macrohon, .MalitbogSouthernLeyte, .PadreBurgosSouthernLeyte, .Pintuyan, .SaintBernard, .SanFranciscoSouthernLeyte, .SanJuanSouthernLeyte, .SanRicardo, .Silago, .SogodSouthernLeyte, .TomasOppus:
             return PhProvince.SouthernLeyte
+        case .Bagumbayan, .Columbio, .Esperanza, .Isulan, .Kalamansig, .Lambayong, .Lebak, .Lutayan, .Palimbang, .PresidentQuirino, .SenatorNinoyAquino:
+            return PhProvince.SultanKudarat
+        case .Banguingui, .HadjiPanglimaTahil, .Indanan, .Jolo, .KalingalanCaluang, .Lugus, .Luuk, .Maimbung, .OldPanamao, .Omar, .Pandami, .PanglimaEstino, .Pangutaran, .ParangSulu, .Pata, .Patikul, .Siasi, .Talipao, .Tapul:
+            return PhProvince.Sulu
+        case .AlegriaSurigaoDelNorte, .Bacuag, .Burgos, .Claver, .Dapa, .DelCarmen, .GeneralLunaSurigaoDelNorte, .Gigaquit, .Mainit, .Malimono, .Pilar, .PlacerSurigaoDelNorte, .SanBenito, .SanFrancisco, .SanIsidro, .SantaMonica, .SisonSurigaoDelNorte, .SocorroSurigaoDelNorte, .Taganaan, .Tubod:
+            return PhProvince.SurigaoDelNorte
+        case .Barobo, .Bayabas, .Cagwait, .Cantilan, .CarmenSurigaoDelSur, .Carrascal, .CortesSurigaoDelSur, .Hinatuan, .Lanuza, .Lianga, .Lingig, .Madrid, .Marihatag, .SanAgustinSurigaoDelSur, .SanMiguelSurigaoDelSur, .Tagbina, .Tago:
+            return PhProvince.SurigaoDelSur
+        case .Anao, .Bamban, .Camiling, .Capas, .ConcepcionTarlac, .Gerona, .LaPazTarlac, .Mayantoc, .Moncada, .Paniqui, .Pura, .Ramos, .SanClemente, .SanJoseTarlac, .SanManuelTarlac, .SantaIgnacia, .VictoriaTarlac:
+            return PhProvince.Tarlac
+        case .Bongao, .Languyan, .Mapun, .PanglimaSugala, .SapaSapa, .Sibutu, .Simunul, .Sitangkai, .SouthUbian, .Tandubas, .TurtleIslands:
+            return PhProvince.TawiTawi
+        case .Botolan, .Cabangan, .CandelariaZambales, .Castillejos, .Iba, .Masinloc, .Palauig, .SanAntonioZambales, .SanFelipeZambales, .SanMarcelinoZambales, .SanNarcisoZambales, .SantaCruzZambales, .Subic:
+            return PhProvince.Zambales
+        case .Baliguian, .Godod, .Gutalac, .JoseDalman, .Kalawit, .Katipunan, .LaLibertadZamboangaDelNorte, .Labason, .LeonBPostigo, .Liloy, .Manukan, .Mutia, .Pinan, .Polanco, .PresidentManuelARoxas, .RizalZamboangaDelNorte, .Salug, .SergioOsmenaSr, .Siayan, .Sibuco, .Sibutad, .Sindangan, .Siocon, .Sirawai, .Tampilisan:
+            return PhProvince.ZamboangaDelNorte
+        case AuroraZamboangaDelSur, .Bayog, .Dimataling, .Dinas, .Dumalinao, .Dumingag, .Guipos, .Josefina, .Kumalarang, .Labangan, .Lakewood, .Lapuyan, .Mahayag, .Margosatubig, .Midsalip, .Molave, .PitogoZamboangaDelSur, .RamonMagsaysay, .SanMiguelZamboangaDelSur, .SanPabloZamboangaDelSur, .Sominot, .Tabina, .Tambulig, .Tigbao, .Tukuran, .VincenzoASagun:
+            return PhProvince.ZamboangaDelSur
+        case .AliciaZamboangaSibugay, .Buug, .Diplahan, .Imelda, .Ipil, .Kabasalan, .Mabuhay, .Malangas, .NagaZamboangaSibugay, .Olutanga, .Payao, .RosellerLim, .Siay, .Talusan, .Titay, .Tungawan:
+            return PhProvince.ZamboangaSibugay
         }
     }
     
